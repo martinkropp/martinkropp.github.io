@@ -4,8 +4,6 @@ permalink: /teaching
 description: Software engineering courses taught by Martin Kropp at FHNW.
 ---
 
-This page preserves the course descriptions from my original academic website. The Spring/Fall classification reflects the archived page and does not necessarily indicate the current teaching schedule.
-
 ## Spring term
 
 ### [Software Construction](http://web.fhnw.ch/plattformen/swc)
@@ -57,5 +55,3 @@ An introduction to object-oriented analysis and design based on Craig Larman's b
 For several years I taught a thorough introduction to software engineering. During this course I also collected material, links and document templates for students.
 
 ---
-
-*Historical course links are preserved from the original website and may no longer be active. Technologies and course assignments are described as they appeared in the archived material.*

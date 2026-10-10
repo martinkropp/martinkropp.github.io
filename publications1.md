@@ -45,7 +45,10 @@ The original publication list has been restored from the archived website. Histo
 
 - Marc Sallin, Martin Kropp. [Benefits of Card Walls in Agile Software Development: A Systematic Literature Review](https://link.springer.com/chapter/10.1007/978-3-031-08169-9_1). [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2022/), June 2022, Copenhagen.
 - Johann Weichbrodt, Martin Kropp, Robert Biddle, Peggy Gregory, Craig
-  Anslow, Ursina Maria Bühler, Magdalena Mateescu, Andreas Meier. [Understanding Leadership in Agile Software Development Teams: Who and How?](https://link.springer.com/chapter/10.1007/978-3-031-08169-9_7). [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2022/), June 2022, Copenhagen.2021---
+  Anslow, Ursina Maria Bühler, Magdalena Mateescu, Andreas Meier. [Understanding Leadership in Agile Software Development Teams: Who and How?](https://link.springer.com/chapter/10.1007/978-3-031-08169-9_7). [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2022/), June 2022, Copenhagen.
+
+## 2021
+
 
 - Marc Sallin, Martin Kropp, Craig Anslow, James Quilty, and Andreas
   Meier. Measuring Software Delivery Performance Using the Four Key
@@ -55,15 +58,20 @@ The original publication list has been restored from the archived website. Histo
 - Robert Biddle, Marting Kropp, Andreas Meier, and Craig Anslow. [Agile Software Development: Practices, Self-Organization, and Satisfaction](https://link.springer.com/chapter/10.1007/978-3-030-73994-2_3).
   Chapter in In the Agile Imperative. Teams, Organizations, and Society Under
   Reconstruction (Book). Manual Nicklich, Sabine Pfeiffer, Stefan Sauer (Eds.),
-  Springer, 20212020
+  Springer, 2021.
+
+## 2020
 
 
 - Brandon Scott-Hill, Craig Anslow, Jennifer Ferreira, Martin Kropp, Magdalena Mateescu, and Andreas Meier. [Visualizing Progress Tracking for Software Teams on Large Collaborative Touch Displays](https://ieeexplore.ieee.org/document/9127286/). In Proceedings of the IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), Dunedin, New Zealand, August 2020
-- Martin Kropp, Andreas Meier, Craig Anslow, and Robert Biddle. Satisfaction and its Correlates in Agile Software Development. J[ournal of Systems and Software (JSS), Volume 164, June 2020](https://www.sciencedirect.com/science/article/pii/S0164121220300261).2019
+- Martin Kropp, Andreas Meier, Craig Anslow, and Robert Biddle. Satisfaction and its Correlates in Agile Software Development. J[ournal of Systems and Software (JSS), Volume 164, June 2020](https://www.sciencedirect.com/science/article/pii/S0164121220300261).
 
+## 2019
 
 - Andreas Meier, Martin Kropp, Peter Zurkichen, Thomas Haas, Flury Meng, David Berger. Teaching Agile to non-IT Professionals – From Agile Software Development to Agile Organisations. [International Conference on Agile Software Development](https://xp2019.sched.com/event/Mf5s/educators-symposium) (XP, Educators Symposium), Montreal, Canada, 2019.
-- Michelle Zumsteg, Martin Kropp. [Der Einfluss von Konfliktstilen auf Team Psychological Safety & Team Work Engagement in Scrum Teams](https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/do-32-2/title/der-einfluss-von-konfliktstilen-auf-team-psychological-safety-team-work-engagement-in-scrum-teams.html?tx_dmconferences_session%5BshowRooms%5D=0&cHash=fae8fe861c6ea5e6a74bec316431e802). OOP Conference 2019, January 21-25, Munich, Germany, 2019.2018
+- Michelle Zumsteg, Martin Kropp. [Der Einfluss von Konfliktstilen auf Team Psychological Safety & Team Work Engagement in Scrum Teams](https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/do-32-2/title/der-einfluss-von-konfliktstilen-auf-team-psychological-safety-team-work-engagement-in-scrum-teams.html?tx_dmconferences_session%5BshowRooms%5D=0&cHash=fae8fe861c6ea5e6a74bec316431e802). OOP Conference 2019, January 21-25, Munich, Germany, 2019.
+
+## 2018
 
 
 - Robert Biddle, Martin Kropp, Andreas Meier, and Craig Anslow. Satisfaction, Practices, and Influences in Agile Software Development. In Proceedings of the ACM International Conference on Evaluation and Assessment in Software Engineering (EASE), Christchurch, New Zealand, 2018.

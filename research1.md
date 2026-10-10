@@ -4,10 +4,6 @@ permalink: /research1
 ---
 
 
-Current and former research projects, preserved from the original website. Dates refer to the original project periods; historical descriptions are retained.
-
----
-
 
 ### aWall - agile Multi Project Coordination (2020-2021)
 

@@ -50,5 +50,3 @@ Research sabbatical at the hotsoft lab with Robert Biddle and his team, investig
 A two-week lecturing visit with several talks about UML and a one-day seminar, *Introduction into UML*, for industry and academia.
 
 ---
-
-*The entries above were transferred from the original site, with formatting and light language edits. Historical links and affiliations have not all been revalidated.*

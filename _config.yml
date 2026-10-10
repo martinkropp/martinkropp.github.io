@@ -1,0 +1,14 @@
+title: "Martin Kropp"
+description: "Academic homepage — Software Engineering, Agile Methods, Research and Teaching"
+url: "https://martinkropp.github.io"
+baseurl: ""
+markdown: kramdown
+theme: null
+exclude:
+  - README.md
+  - "*.zip"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

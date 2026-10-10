@@ -3,8 +3,6 @@ title: Publications
 permalink: /publications1
 ---
 
-The original publication list has been restored from the archived website. Historical citation wording and links are preserved pending bibliographic verification.
-
 ## 2026
 
 

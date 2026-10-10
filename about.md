@@ -24,8 +24,6 @@ I co-founded [aTouch dynamics](https://www.atouch.ch/), a startup developing too
 
 ## International Academic Experience
 
-These three longer stays abroad were documented on my original Professional Activities page.
-
 ### 2023–2024 · Victoria University of Wellington, New Zealand
 
 My second research sabbatical was spent at Victoria University of Wellington with Craig Anslow. We continued research on agile software development and collaboration, particularly using large-screen walls for agile teamwork.
@@ -36,7 +34,7 @@ During a research sabbatical at the **hotsoft lab** at Carleton University, I wo
 
 ### 2002 · Institute of Technology Blanchardstown, Dublin, Ireland
 
-Academic stay at the Institute of Technology Blanchardstown (ITB). The original website records the institution and year, but does not provide further details about the research activities undertaken there.
+Two-week lecturing stay in November 2002, including several talks about UML and a one-day seminar, *Introduction into UML*, for industry and academia.
 
 ## Academic profiles
 
@@ -52,5 +50,3 @@ CH-5052 Windisch, Switzerland
 Phone: +41 56 202 7818  
 Email: [martin.kropp@fhnw.ch](mailto:martin.kropp@fhnw.ch)  
 Web: [www.kropp.ch](https://www.kropp.ch/)
-
-*Descriptions reflect the archived homepage and may refer to activities that have since changed. Historical information is retained for review.*

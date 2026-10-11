@@ -50,7 +50,7 @@ for r in records:
 
 lines = [
     "---", "layout: default", "title: Publications",
-    "permalink: /publications1", "---",
+    "permalink: /publications", "---",
     '<div class="scholar-list">',
     f'<p class="scholar-count">{len(records)} publications and contributions</p>'
 ]
@@ -98,10 +98,10 @@ layout: default
 title: Publications
 permalink: /bibliography/
 ---
-<p>The publication list has moved to <a href="/publications1">Publications</a>.</p>
-<meta http-equiv="refresh" content="0; url=/publications1">
+<p>The publication list has moved to <a href="/publications">Publications</a>.</p>
+<meta http-equiv="refresh" content="0; url=/publications">
 """, encoding="utf-8")
 assets = ROOT / "assets"
 assets.mkdir(exist_ok=True)
 (assets / "papers.bib").write_text(raw, encoding="utf-8")
-print(f"Built {len(records)} bibliography records across {len(groups)} year groups at /publications1")
+print(f"Built {len(records)} bibliography records across {len(groups)} year groups at /publications")

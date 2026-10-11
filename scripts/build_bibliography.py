@@ -52,9 +52,6 @@ lines = [
     "---", "layout: default", "title: Publications",
     "permalink: /publications1", "---",
     '<div class="scholar-list">',
-    '<p class="scholar-intro">Publications by year · '
-    '<a href="/publications-archive">Original publication archive</a> · '
-    '<a href="/assets/papers.bib" download>Download BibTeX</a></p>',
     f'<p class="scholar-count">{len(records)} publications and contributions</p>'
 ]
 for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=True):

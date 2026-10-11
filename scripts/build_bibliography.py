@@ -81,8 +81,6 @@ for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=
             citation += f' <span class="scholar-venue">{venue}{suffix}.</span>'
         lines.append(f'<article class="scholar-entry" id="{key}">')
         lines.append(f'<p class="scholar-citation">{citation}</p>')
-        if url:
-            lines.append(f'<div class="scholar-links"><a href="{escape(url, quote=True)}">View publication ↗</a></div>')
         lines.append('</article>')
     lines.append('</div>')
 lines.append('</div>')

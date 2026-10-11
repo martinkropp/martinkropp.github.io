@@ -3,7 +3,7 @@ title: Publications
 permalink: /publications-archive
 ---
 
-[Current publications list](/publications1) · [Download BibTeX](/assets/papers.bib)
+[Current publications list](/publications) · [Download BibTeX](/assets/papers.bib)
 
 ## 2026
 

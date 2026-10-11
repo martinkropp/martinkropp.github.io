@@ -3,6 +3,8 @@ title: Publications
 permalink: /publications1
 ---
 
+[Browse the structured bibliography](/bibliography/) · [Download BibTeX](/assets/papers.bib)
+
 ## 2026
 
 

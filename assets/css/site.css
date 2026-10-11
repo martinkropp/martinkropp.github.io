@@ -5,3 +5,20 @@ nav{display:flex;gap:1.3rem;flex-wrap:wrap}nav a{font-size:.89rem;color:#40576b;
 .main{padding:4.5rem 0 6rem;min-height:65vh}.main h1,.prose h1,.prose h2,.prose h3{color:var(--ink);line-height:1.23}.main h1,.prose h1{font-family:Georgia,serif;font-size:clamp(2.1rem,4vw,3.4rem);font-weight:400;letter-spacing:-.025em;margin:.2em 0 1em}.prose{max-width:790px}.prose h2{font-family:Georgia,serif;font-size:1.65rem;font-weight:400;margin-top:2.8rem;border-bottom:1px solid var(--line);padding-bottom:.45rem}.prose h3{font-size:1.15rem;margin-top:1.8rem}.prose p{margin:1rem 0}.prose ul{padding-left:1.35rem}.prose li{margin:.5rem 0}.prose blockquote{border-left:3px solid var(--accent);padding-left:1.2rem;color:var(--sub)}
 .eyebrow{font-size:.7rem;letter-spacing:.2em;color:var(--accent);font-weight:700}.lead{font-size:1.3rem;color:#536779}.hero{padding:1rem 0 2rem}.hero h1{font-size:clamp(2.6rem,5.5vw,4.2rem)}.pill{display:inline-block;background:var(--paper);border:1px solid var(--line);padding:.35rem .8rem;border-radius:100px;margin:.2rem;font-size:.85rem}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:2rem 0}.card{padding:1.3rem;border:1px solid var(--line);border-radius:10px;background:#fff}.card strong{display:block;color:var(--ink)}.card a{text-decoration:none}.footer{background:var(--paper);border-top:1px solid var(--line);font-size:.85rem;color:var(--sub)}.footer .wrap{min-height:100px;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:white;padding:.5rem;z-index:10}
 @media(max-width:720px){.wrap{width:calc(100% - 2rem)}.nav{padding:1rem 0;align-items:flex-start;flex-direction:column;gap:.7rem}nav{gap:.7rem 1rem}.main{padding:2.5rem 0 4rem}}
+
+
+/* Compact scholarly bibliography inspired by Google Scholar's reading density. */
+.scholar-list{font-size:.94rem;line-height:1.45;max-width:790px}
+.scholar-intro{color:var(--sub);margin:.1rem 0 .3rem!important;font-size:.91rem}
+.scholar-count{color:var(--sub);font-size:.82rem;margin:0 0 1.7rem!important}
+.prose .scholar-year{font:600 1.08rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1.7rem 0 .45rem;padding:0 0 .35rem;border-bottom:1px solid var(--line)}
+.scholar-group{margin:0}
+.scholar-entry{padding:.52rem 0 .66rem;border-bottom:1px solid #edf0f1;scroll-margin-top:1.5rem}
+.prose .scholar-title{font:600 1rem/1.35 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 .16rem;color:var(--ink)}
+.scholar-title a{color:#285d8e;text-decoration:none}
+.scholar-title a:hover{text-decoration:underline}
+.scholar-authors{color:#46515d;font-size:.88rem;line-height:1.4}
+.scholar-venue{color:#697680;font-size:.86rem;line-height:1.4;font-style:italic}
+.scholar-links{font-size:.79rem;margin-top:.13rem}
+.scholar-links a{text-decoration:none;color:var(--accent)}
+@media(max-width:720px){.scholar-entry{padding:.67rem 0}.prose .scholar-title{font-size:.98rem}}

@@ -44,32 +44,41 @@ for r in records:
     groups[year if re.fullmatch(r"\d{4}", year) else "Other"].append(r)
 
 lines = [
-    "---", "layout: default", "title: Structured Bibliography",
+    "---", "layout: default", "title: Publications",
     "permalink: /bibliography/", "---",
-    '<p class="bib-intro">Browse the structured publication records by year. '
+    '<div class="scholar-list">',
+    '<p class="scholar-intro">Publications by year · '
     '<a href="/publications1">Original publication list</a> · '
     '<a href="/assets/papers.bib" download>Download BibTeX</a></p>',
-    f'<p class="bib-count">{len(records)} records</p>'
+    f'<p class="scholar-count">{len(records)} publications and contributions</p>'
 ]
 for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=True):
-    lines.append(f'<h2 class="bib-year">{safe(year)}</h2>')
-    lines.append('<div class="bib-group">')
+    lines.append(f'<h2 class="scholar-year">{safe(year)}</h2>')
+    lines.append('<div class="scholar-group">')
     for r in sorted(groups[year], key=lambda x: clean(x.get("title", "")).lower()):
         title = safe(r.get("title", "(Untitled publication)"))
-        authors = safe(r.get("author", r.get("editor", ""))).replace(" and ", " · ")
-        venue = safe(r.get("journal", r.get("booktitle", r.get("publisher", r.get("organization", "")))))
+        people = clean(r.get("author") or r.get("editor") or "")
+        # BibTeX uses 'and' between authors; render a readable compact list.
+        authors = escape(", ".join(people.split(" and ")), quote=True)
+        venue = safe(r.get("journal") or r.get("booktitle") or r.get("publisher") or r.get("organization") or "")
         pages = safe(r.get("pages", ""))
         url = link_for(r)
         key = safe(r["ID"])
-        kind = safe(r.get("ENTRYTYPE", "publication")).capitalize()
-        lines += [f'<article class="bib-entry" id="{key}">',
-                  f'<div class="bib-type">{kind}</div>',
-                  f'<h3>{title}</h3>']
-        if authors: lines.append(f'<p class="bib-authors">{authors}</p>')
-        if venue: lines.append(f'<p class="bib-venue">{venue}{(" · pp. " + pages) if pages else ""}</p>')
-        if url: lines.append(f'<p class="bib-actions"><a href="{escape(url, quote=True)}">Publisher / DOI ↗</a></p>')
+        lines.append(f'<article class="scholar-entry" id="{key}">')
+        title_html = f'<a href="{escape(url, quote=True)}">{title}</a>' if url else title
+        lines.append(f'<h3 class="scholar-title">{title_html}</h3>')
+        if authors:
+            lines.append(f'<div class="scholar-authors">{authors}</div>')
+        if venue:
+            suffix = f' · pp. {pages}' if pages else ''
+            lines.append(f'<div class="scholar-venue">{venue}{suffix} · {safe(year)}</div>')
+        elif year != "Other":
+            lines.append(f'<div class="scholar-venue">{safe(year)}</div>')
+        if url:
+            lines.append(f'<div class="scholar-links"><a href="{escape(url, quote=True)}">View publication</a></div>')
         lines.append('</article>')
     lines.append('</div>')
+lines.append('</div>')
 
 target = ROOT / "bibliography" / "index.html"
 target.parent.mkdir(parents=True, exist_ok=True)

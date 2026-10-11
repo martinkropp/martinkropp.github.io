@@ -33,3 +33,30 @@ nav{display:flex;gap:1.3rem;flex-wrap:wrap}nav a{font-size:.89rem;color:#40576b;
 .scholar-citation .scholar-title a{color:#285d8e}
 .scholar-citation .scholar-venue{font-size:inherit;font-style:italic;color:#596774}
 .scholar-links{margin-top:0;font-size:.76rem}
+
+
+/* 2026 academic refresh: al-folio-inspired restraint, readable layout and focus states. */
+:root{--ink:#172b40;--body:#344353;--accent:#166080;--line:#e2e8ed;--sub:#617382;--paper:#f6f8fa}
+body{font:16px/1.72 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{width:min(1080px,calc(100% - 3rem))}
+.header{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(255,255,255,.97)}
+.nav{min-height:68px;gap:1.5rem}.brand{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.24rem;letter-spacing:-.045em;font-weight:760}
+nav{gap:.25rem;align-items:center}nav a{display:inline-flex;padding:.45rem .68rem;border-radius:6px;font-size:.84rem;font-weight:550;color:#43576a;transition:background .15s,color .15s}
+nav a:hover,nav a[aria-current="page"]{background:#edf4f7;color:var(--accent);text-decoration:none}
+a:focus-visible{outline:3px solid #6aa6c3;outline-offset:3px;border-radius:3px}
+.main{padding:3.7rem 0 5.5rem;min-height:65vh}.prose{max-width:840px}
+.main h1,.prose h1{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:750;letter-spacing:-.052em;line-height:1.14;margin:.15em 0 .85em}
+.prose h2{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.45rem;font-weight:700;letter-spacing:-.025em;margin-top:2.7rem;padding-bottom:.4rem}
+.prose h3{font-size:1.12rem;font-weight:680}.prose p{margin:.8rem 0}.prose li{margin:.4rem 0}
+.eyebrow{font-size:.68rem;letter-spacing:.16em;font-weight:750}
+.hero{max-width:850px;padding:1.2rem 0 2.2rem;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2.8rem,6vw,4.45rem);letter-spacing:-.065em;margin:.18em 0 .28em}
+.lead{font-size:clamp(1.12rem,2vw,1.38rem);line-height:1.55;color:#526a7b;max-width:780px}
+.pill{font-size:.8rem;background:#f0f5f7;border-color:#dce8ed;color:#375b70;padding:.32rem .7rem;margin:.15rem .25rem .15rem 0}
+.cards{gap:.85rem;margin:1.5rem 0}.card{border-radius:9px;padding:1.15rem 1.2rem;border-color:var(--line);line-height:1.55;box-shadow:0 2px 12px rgba(22,48,69,.025)}
+.card strong{margin-bottom:.4rem;font-size:.97rem}.card a{color:var(--accent)}.card:hover{border-color:#bdd1dc}
+.footer .wrap{min-height:84px}.footer{background:#f9fafb}
+.scholar-list{max-width:840px}.prose .scholar-year{color:var(--ink);margin-top:1.8rem}
+.prose .scholar-citation{font-size:.91rem;line-height:1.55}.scholar-entry{padding:.54rem 0 .62rem}
+@media(max-width:780px){.wrap{width:calc(100% - 2rem)}.header{position:static}.nav{padding:.8rem 0;flex-direction:column;align-items:flex-start;gap:.5rem}nav{gap:.15rem;flex-wrap:wrap}nav a{padding:.35rem .52rem;font-size:.84rem}.main{padding:2.1rem 0 3.5rem}.hero{padding:.4rem 0 1.45rem}.cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}nav a{transition:none}}

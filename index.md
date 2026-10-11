@@ -8,7 +8,7 @@ description: Martin Kropp — software engineering research, teaching and academ
 <h1>Martin Kropp</h1>
 <p class="lead">Professor of Software Engineering at the University of Applied Sciences and Arts Northwestern Switzerland (FHNW).</p>
 <p>I research how software development can become more effective through agile methodologies, collaborative technologies, automated construction, and software metrics and analysis.</p>
-<p><a href="/research1">Explore research →</a> &nbsp; <a href="/publications1">Publications →</a> &nbsp; <a href="/about">About me →</a></p>
+<p><a href="/research">Explore research →</a> &nbsp; <a href="/publications">Publications →</a> &nbsp; <a href="/about">About me →</a></p>
 </div>
 
 ## Research interests
@@ -21,8 +21,8 @@ description: Martin Kropp — software engineering research, teaching and academ
 ## Academic work
 
 <div class="cards">
-<div class="card"><strong><a href="/research1">Research →</a></strong>Projects and academic initiatives, including the Swiss Agile Study and collaboration technologies.</div>
-<div class="card"><strong><a href="/publications1">Publications →</a></strong>Books, papers and conference publications.</div>
+<div class="card"><strong><a href="/research">Research →</a></strong>Projects and academic initiatives, including the Swiss Agile Study and collaboration technologies.</div>
+<div class="card"><strong><a href="/publications">Publications →</a></strong>Books, papers and conference publications.</div>
 <div class="card"><strong><a href="/teaching">Teaching →</a></strong>Software engineering courses and continuing education at FHNW.</div>
 <div class="card"><strong><a href="/about#international-academic-experience">International experience →</a></strong>Research sabbaticals in New Zealand and Canada, and a stay in Ireland.</div>
 </div>

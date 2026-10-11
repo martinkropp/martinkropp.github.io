@@ -24,7 +24,7 @@ def clean(value):
     # Basic common LaTeX accents and commands, without changing the source BibTeX.
     for source, target in [(r'{\\o}', 'ø'), (r'{\\O}', 'Ø'), (r'\\o', 'ø'), (r'{\\ss}', 'ß'), (r'\\&', '&')]:
         value = value.replace(source, target)
-    return re.sub(r"\\s+", " ", value).strip()
+    return re.sub(r"\s+", " ", value).strip()
 
 def safe(text):
     return escape(clean(text), quote=True)
@@ -41,7 +41,7 @@ def link_for(r):
 groups = defaultdict(list)
 for r in records:
     year = clean(r.get("year", "")).strip("{} ")
-    groups[year if re.fullmatch(r"\\d{4}", year) else "Other"].append(r)
+    groups[year if re.fullmatch(r"\d{4}", year) else "Other"].append(r)
 
 lines = [
     "---", "layout: default", "title: Structured Bibliography",

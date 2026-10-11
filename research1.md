@@ -1,6 +1,6 @@
 ---
 title: Research
-permalink: /research1
+permalink: /research
 ---
 
 

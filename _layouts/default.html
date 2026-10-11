@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
 <meta name="description" content="{{ page.description | default: site.description | escape }}">
 <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title }}</title>
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
@@ -12,12 +13,12 @@
 <header class="header"><div class="wrap nav">
   <a class="brand" href="{{ '/' | relative_url }}">Martin Kropp<span class="brand-dot">.</span></a>
   <nav aria-label="Main navigation">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/about' | relative_url }}">About</a>
-    <a href="{{ '/research' | relative_url }}">Research</a>
-    <a href="{{ '/publications' | relative_url }}">Publications</a>
-    <a href="{{ '/teaching' | relative_url }}">Teaching</a>
-    <a href="{{ '/professional-activities' | relative_url }}">Activities</a>
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/about' | relative_url }}" {% if page.url == '/about' or page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
+    <a href="{{ '/research' | relative_url }}" {% if page.url == '/research' or page.url == '/research/' %}aria-current="page"{% endif %}>Research</a>
+    <a href="{{ '/publications' | relative_url }}" {% if page.url == '/publications' or page.url == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+    <a href="{{ '/teaching' | relative_url }}" {% if page.url == '/teaching' or page.url == '/teaching/' %}aria-current="page"{% endif %}>Teaching</a>
+    <a href="{{ '/professional-activities' | relative_url }}" {% if page.url == '/professional-activities' or page.url == '/professional-activities/' %}aria-current="page"{% endif %}>Activities</a>
   </nav>
 </div></header>
 <main id="content" class="wrap main">

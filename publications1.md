@@ -1,6 +1,6 @@
 ---
 title: Publications
-permalink: /publications1
+permalink: /publications
 ---
 
 The publication list is generated from [the BibTeX database](/assets/papers.bib) during deployment.

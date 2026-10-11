@@ -60,3 +60,33 @@ a:focus-visible{outline:3px solid #6aa6c3;outline-offset:3px;border-radius:3px}
 .prose .scholar-citation{font-size:.91rem;line-height:1.55}.scholar-entry{padding:.54rem 0 .62rem}
 @media(max-width:780px){.wrap{width:calc(100% - 2rem)}.header{position:static}.nav{padding:.8rem 0;flex-direction:column;align-items:flex-start;gap:.5rem}nav{gap:.15rem;flex-wrap:wrap}nav a{padding:.35rem .52rem;font-size:.84rem}.main{padding:2.1rem 0 3.5rem}.hero{padding:.4rem 0 1.45rem}.cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}nav a{transition:none}}
+
+
+/* Portfolio direction: contemporary al-folio rhythm with a distinct identity. */
+:root{--accent:#087c83;--ink:#172c3c;--body:#42515e;--sub:#697a86;--paper:#f7faf9;--line:#e2eae9}
+body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
+.header{box-shadow:0 1px 0 rgba(19,54,60,.025)}.brand{letter-spacing:-.055em}.nav a[aria-current="page"],.nav a:hover{background:#edf7f6;color:#087c83}
+.main{padding-top:3.4rem}.prose{max-width:880px}
+.profile-hero{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:clamp(2rem,5vw,5.5rem);align-items:center;padding:2.2rem 0 3.8rem;border-bottom:1px solid var(--line)}
+.profile-copy{min-width:0}.profile-copy .eyebrow{color:#087c83;margin-bottom:1.1rem}
+.prose .profile-copy h1{font-size:clamp(3.15rem,7vw,5.3rem);letter-spacing:-.078em;margin:.05rem 0 1.2rem;line-height:1.03}
+.profile-copy .lead{font-size:clamp(1.25rem,2vw,1.55rem);line-height:1.46;max-width:690px;color:#233f4b;margin:0 0 1rem}
+.profile-copy>p:not(.lead){max-width:675px;line-height:1.73;color:#53616b}
+.profile-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.75rem 0}
+.profile-actions a{display:inline-flex;align-items:center;gap:.7rem;padding:.65rem 1.1rem;border:1px solid #c9dad9;border-radius:7px;text-decoration:none;font-weight:650;font-size:.9rem}
+.profile-actions .action-primary{background:#087c83;border-color:#087c83;color:#fff}.profile-actions .action-primary:hover{background:#07686e}
+.profile-actions .action-secondary{background:#fff;color:#176b70}.profile-actions a:hover{text-decoration:none;transform:translateY(-1px)}
+.profile-social{display:flex;flex-wrap:wrap;gap:.4rem 1.35rem;font-size:.83rem}
+.profile-social a{text-decoration:none;color:#477078}.profile-social a:hover{text-decoration:underline}
+.profile-aside{background:#f5f9f8;border:1px solid #e0eeeb;border-radius:12px;padding:1.45rem 1.55rem}
+.aside-label,.feature-number{font-size:.68rem;font-weight:750;letter-spacing:.13em;color:#5c8b88}
+.aside-topic{font-size:.93rem;font-weight:600;color:#2c4c50;padding:.72rem 0;border-bottom:1px solid #deebe8}
+.aside-link{display:inline-block;margin-top:1.2rem;text-decoration:none;font-size:.86rem;font-weight:650}
+.feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0 2.8rem}
+.feature-link{display:flex;flex-direction:column;gap:.8rem;border:1px solid var(--line);border-radius:10px;padding:1.4rem 1.5rem;text-decoration:none!important;background:#fff;min-height:168px;transition:border-color .17s,background .17s,transform .17s}
+.feature-link strong{font-size:1.14rem;line-height:1.25;color:var(--ink)}.feature-link strong span{color:#0d8b8a}.feature-link>span:last-child{font-size:.89rem;line-height:1.6;color:#657681}
+.feature-link:hover{border-color:#9ac9c2;background:#fbfefd;transform:translateY(-2px)}
+.prose h2{border-bottom-color:var(--line)}.scholar-title a,.scholar-citation .scholar-title a{color:#087b83}
+@media(max-width:850px){.profile-hero{grid-template-columns:1fr;gap:1.7rem;padding:1.3rem 0 2.7rem}.profile-aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1rem}.aside-label,.aside-link{grid-column:1/-1}}
+@media(max-width:600px){.feature-grid{grid-template-columns:1fr}.profile-aside{grid-template-columns:1fr}.profile-hero{padding-top:.4rem}.prose .profile-copy h1{font-size:3.15rem}.feature-link{min-height:0}.profile-actions a{font-size:.86rem}}
+@media(prefers-reduced-motion:reduce){.feature-link,.profile-actions a{transition:none}.feature-link:hover,.profile-actions a:hover{transform:none}}

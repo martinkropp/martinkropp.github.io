@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a separate bibliography view from BibTeX, never touching publications1.md."""
+"""Build the main publications view from BibTeX; preserve publications-archive.md."""
 from collections import defaultdict
 from html import escape
 from pathlib import Path
@@ -50,10 +50,10 @@ for r in records:
 
 lines = [
     "---", "layout: default", "title: Publications",
-    "permalink: /bibliography/", "---",
+    "permalink: /publications1", "---",
     '<div class="scholar-list">',
     '<p class="scholar-intro">Publications by year · '
-    '<a href="/publications1">Original publication list</a> · '
+    '<a href="/publications-archive">Original publication archive</a> · '
     '<a href="/assets/papers.bib" download>Download BibTeX</a></p>',
     f'<p class="scholar-count">{len(records)} publications and contributions</p>'
 ]
@@ -90,10 +90,10 @@ for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=
     lines.append('</div>')
 lines.append('</div>')
 
-target = ROOT / "bibliography" / "index.html"
+target = ROOT / "publications1.md"
 target.parent.mkdir(parents=True, exist_ok=True)
 target.write_text("\n".join(lines) + "\n", encoding="utf-8")
 assets = ROOT / "assets"
 assets.mkdir(exist_ok=True)
 (assets / "papers.bib").write_text(raw, encoding="utf-8")
-print(f"Built {len(records)} bibliography records across {len(groups)} year groups at /bibliography/")
+print(f"Built {len(records)} bibliography records across {len(groups)} year groups at /publications1")

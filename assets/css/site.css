@@ -22,3 +22,14 @@ nav{display:flex;gap:1.3rem;flex-wrap:wrap}nav a{font-size:.89rem;color:#40576b;
 .scholar-links{font-size:.79rem;margin-top:.13rem}
 .scholar-links a{text-decoration:none;color:var(--accent)}
 @media(max-width:720px){.scholar-entry{padding:.67rem 0}.prose .scholar-title{font-size:.98rem}}
+
+
+/* Author-first, APA-inspired compact bibliography */
+.scholar-entry{padding:.48rem 0 .57rem}
+.prose .scholar-citation{margin:0;font-size:.93rem;line-height:1.52;color:#394550}
+.scholar-citation .scholar-authors{font-size:inherit;color:#354250}
+.scholar-citation .scholar-pubyear{color:var(--sub);white-space:nowrap}
+.scholar-citation .scholar-title{font-size:inherit;font-weight:500;line-height:inherit;color:var(--ink)}
+.scholar-citation .scholar-title a{color:#285d8e}
+.scholar-citation .scholar-venue{font-size:inherit;font-style:italic;color:#596774}
+.scholar-links{margin-top:0;font-size:.76rem}

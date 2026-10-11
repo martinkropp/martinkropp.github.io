@@ -58,24 +58,31 @@ for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=
     for r in sorted(groups[year], key=lambda x: clean(x.get("title", "")).lower()):
         title = safe(r.get("title", "(Untitled publication)"))
         people = clean(r.get("author") or r.get("editor") or "")
-        # BibTeX uses 'and' between authors; render a readable compact list.
-        authors = escape(", ".join(people.split(" and ")), quote=True)
+        # Preserve bibliographic author order, using familiar full names like Craig Anslow's list.
+        formatted = []
+        for name in people.split(" and "):
+            name = name.strip()
+            if "," in name:
+                family, given = name.split(",", 1)
+                name = (given.strip() + " " + family.strip()).strip()
+            if name:
+                formatted.append(name)
+        authors = escape(", ".join(formatted), quote=True)
         venue = safe(r.get("journal") or r.get("booktitle") or r.get("publisher") or r.get("organization") or "")
         pages = safe(r.get("pages", ""))
         url = link_for(r)
         key = safe(r["ID"])
-        lines.append(f'<article class="scholar-entry" id="{key}">')
+        citation = f'<span class="scholar-authors">{authors}.</span> ' if authors else ""
+        citation += f'<span class="scholar-pubyear">({safe(year)}).</span> '
         title_html = f'<a href="{escape(url, quote=True)}">{title}</a>' if url else title
-        lines.append(f'<h3 class="scholar-title">{title_html}</h3>')
-        if authors:
-            lines.append(f'<div class="scholar-authors">{authors}</div>')
+        citation += f'<span class="scholar-title">{title_html}.</span>'
         if venue:
-            suffix = f' · pp. {pages}' if pages else ''
-            lines.append(f'<div class="scholar-venue">{venue}{suffix} · {safe(year)}</div>')
-        elif year != "Other":
-            lines.append(f'<div class="scholar-venue">{safe(year)}</div>')
+            suffix = f', pp. {pages}' if pages else ''
+            citation += f' <span class="scholar-venue">{venue}{suffix}.</span>'
+        lines.append(f'<article class="scholar-entry" id="{key}">')
+        lines.append(f'<p class="scholar-citation">{citation}</p>')
         if url:
-            lines.append(f'<div class="scholar-links"><a href="{escape(url, quote=True)}">View publication</a></div>')
+            lines.append(f'<div class="scholar-links"><a href="{escape(url, quote=True)}">View publication ↗</a></div>')
         lines.append('</article>')
     lines.append('</div>')
 lines.append('</div>')

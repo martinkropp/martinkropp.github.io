@@ -21,9 +21,14 @@ if len(keys) != len(set(keys)):
 
 def clean(value):
     value = str(value or "").replace("\\&", "&").replace("---", "—").replace("--", "–")
-    # Basic common LaTeX accents and commands, without changing the source BibTeX.
-    for source, target in [(r'{\\o}', 'ø'), (r'{\\O}', 'Ø'), (r'\\o', 'ø'), (r'{\\ss}', 'ß'), (r'\\&', '&')]:
+    # Decode LaTeX umlauts, including R{\"u}egger, {\"u}, and \"u forms.
+    umlaut = {"a": "ä", "o": "ö", "u": "ü", "A": "Ä", "O": "Ö", "U": "Ü"}
+    value = re.sub(r'\{\\"([aouAOU])\}', lambda m: umlaut[m.group(1)], value)
+    value = re.sub(r'\\"\{([aouAOU])\}', lambda m: umlaut[m.group(1)], value)
+    value = re.sub(r'\\"([aouAOU])', lambda m: umlaut[m.group(1)], value)
+    for source, target in [(r'{\o}', 'ø'), (r'{\O}', 'Ø'), (r'\o', 'ø'), (r'{\ss}', 'ß'), (r'\ss', 'ß'), (r'\&', '&')]:
         value = value.replace(source, target)
+    value = value.replace('{', '').replace('}', '')
     return re.sub(r"\s+", " ", value).strip()
 
 def safe(text):

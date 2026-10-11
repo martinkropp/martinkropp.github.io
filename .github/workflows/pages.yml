@@ -18,6 +18,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Prepare bibliography
+        run: |
+          python3 -m pip install -r requirements-bibliography.txt
+          python3 scripts/build_bibliography.py
       - name: Build Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

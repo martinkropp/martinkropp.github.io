@@ -93,6 +93,17 @@ lines.append('</div>')
 target = ROOT / "publications1.md"
 target.parent.mkdir(parents=True, exist_ok=True)
 target.write_text("\n".join(lines) + "\n", encoding="utf-8")
+# Keep the previously published bibliography address working.
+redirect = ROOT / "bibliography" / "index.html"
+redirect.parent.mkdir(parents=True, exist_ok=True)
+redirect.write_text("""---
+layout: default
+title: Publications
+permalink: /bibliography/
+---
+<p>The publication list has moved to <a href="/publications1">Publications</a>.</p>
+<meta http-equiv="refresh" content="0; url=/publications1">
+""", encoding="utf-8")
 assets = ROOT / "assets"
 assets.mkdir(exist_ok=True)
 (assets / "papers.bib").write_text(raw, encoding="utf-8")

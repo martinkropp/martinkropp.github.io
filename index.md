@@ -11,7 +11,7 @@ description: Martin Kropp — software engineering research, teaching and academ
 <p>I research how software development can become more effective through agile methodologies, collaborative technologies, automated construction, and software metrics and analysis.</p>
 <p><a href="/research">Explore research →</a> &nbsp; <a href="/publications">Publications →</a> &nbsp; <a href="/about">About me →</a></p>
 </div>
-<img class="hero-portrait" src="{{ '/me.jpg' | relative_url }}" alt="Portrait of Martin Kropp" width="160" loading="eager" decoding="async">
+<img class="hero-portrait" src="{{ '/me.jpg' | relative_url }}" alt="Portrait of Martin Kropp" width="120" loading="eager" decoding="async">
 </div>
 
 ## Research interests

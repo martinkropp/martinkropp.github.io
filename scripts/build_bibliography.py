@@ -54,6 +54,7 @@ lines = [
     '<div class="scholar-list">',
     f'<p class="scholar-count">{len(records)} publications and contributions</p>'
 ]
+publication_number = 0
 for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=True):
     lines.append(f'<h2 class="scholar-year">{safe(year)}</h2>')
     lines.append('<div class="scholar-group">')
@@ -81,7 +82,9 @@ for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=
         if venue:
             suffix = f', pp. {pages}' if pages else ''
             citation += f' <span class="scholar-venue">{venue}{suffix}.</span>'
+        publication_number += 1
         lines.append(f'<article class="scholar-entry" id="{key}">')
+        lines.append(f'<span class="scholar-number" aria-label="Publication {publication_number}">{publication_number}.</span>')
         lines.append(f'<p class="scholar-citation">{citation}</p>')
         lines.append('</article>')
     lines.append('</div>')

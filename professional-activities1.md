@@ -1,6 +1,6 @@
 ---
 title: Academic Service and Professional Activities
-permalink: /professional-activities1
+permalink: /professional-activities
 description: Conference service, professional networks and international academic visits.
 ---
 

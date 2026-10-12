@@ -1,9 +1,29 @@
 ---
 title: Research
-permalink: /research1
+permalink: /research
 ---
 
 
+
+## Current research
+
+### aWall — Agile and Hybrid Collaboration (Ongoing)
+
+aWall is an ongoing research initiative at our institute investigating how **large interactive digital card walls** can support planning, coordination and collaboration in agile software development teams. A particular focus is **hybrid collaboration**: enabling people working on-site and remotely to share an effective visual workspace.
+
+The research builds on earlier aWall projects in interactive card walls, multi-project coordination and online collaboration. Recent work explores how artificial intelligence can make information from everyday team communication more accessible and useful.
+
+### AI Integrated Hybrid Meetings (2023–2024)
+
+This research project investigated the integration of **AI-supported analysis of transcribed video and audio meetings and chat messages** into hybrid collaboration workflows.
+
+The aim was to explore how relevant information arising in discussions could be identified and brought into a shared visual workspace, helping agile teams maintain common awareness, coordinate their work and reduce the manual effort of keeping card walls up to date.
+
+This project forms part of the ongoing aWall research direction, rather than a replacement for the broader work on interactive card walls.
+
+## Previous projects
+
+The following project descriptions document earlier research activities. The aWall projects below are completed project phases within the continuing aWall research initiative.
 
 ### aWall - agile Multi Project Coordination (2020-2021)
 

@@ -5,3 +5,130 @@ nav{display:flex;gap:1.3rem;flex-wrap:wrap}nav a{font-size:.89rem;color:#40576b;
 .main{padding:4.5rem 0 6rem;min-height:65vh}.main h1,.prose h1,.prose h2,.prose h3{color:var(--ink);line-height:1.23}.main h1,.prose h1{font-family:Georgia,serif;font-size:clamp(2.1rem,4vw,3.4rem);font-weight:400;letter-spacing:-.025em;margin:.2em 0 1em}.prose{max-width:790px}.prose h2{font-family:Georgia,serif;font-size:1.65rem;font-weight:400;margin-top:2.8rem;border-bottom:1px solid var(--line);padding-bottom:.45rem}.prose h3{font-size:1.15rem;margin-top:1.8rem}.prose p{margin:1rem 0}.prose ul{padding-left:1.35rem}.prose li{margin:.5rem 0}.prose blockquote{border-left:3px solid var(--accent);padding-left:1.2rem;color:var(--sub)}
 .eyebrow{font-size:.7rem;letter-spacing:.2em;color:var(--accent);font-weight:700}.lead{font-size:1.3rem;color:#536779}.hero{padding:1rem 0 2rem}.hero h1{font-size:clamp(2.6rem,5.5vw,4.2rem)}.pill{display:inline-block;background:var(--paper);border:1px solid var(--line);padding:.35rem .8rem;border-radius:100px;margin:.2rem;font-size:.85rem}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:2rem 0}.card{padding:1.3rem;border:1px solid var(--line);border-radius:10px;background:#fff}.card strong{display:block;color:var(--ink)}.card a{text-decoration:none}.footer{background:var(--paper);border-top:1px solid var(--line);font-size:.85rem;color:var(--sub)}.footer .wrap{min-height:100px;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:white;padding:.5rem;z-index:10}
 @media(max-width:720px){.wrap{width:calc(100% - 2rem)}.nav{padding:1rem 0;align-items:flex-start;flex-direction:column;gap:.7rem}nav{gap:.7rem 1rem}.main{padding:2.5rem 0 4rem}}
+
+
+/* Compact scholarly bibliography inspired by Google Scholar's reading density. */
+.scholar-list{font-size:.94rem;line-height:1.45;max-width:790px}
+.scholar-intro{color:var(--sub);margin:.1rem 0 .3rem!important;font-size:.91rem}
+.scholar-count{color:var(--sub);font-size:.82rem;margin:0 0 1.7rem!important}
+.prose .scholar-year{font:600 1.08rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1.7rem 0 .45rem;padding:0 0 .35rem;border-bottom:1px solid var(--line)}
+.scholar-group{margin:0}
+.scholar-entry{padding:.52rem 0 .66rem;border-bottom:1px solid #edf0f1;scroll-margin-top:1.5rem}
+.prose .scholar-title{font:600 1rem/1.35 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 .16rem;color:var(--ink)}
+.scholar-title a{color:#285d8e;text-decoration:none}
+.scholar-title a:hover{text-decoration:underline}
+.scholar-authors{color:#46515d;font-size:.88rem;line-height:1.4}
+.scholar-venue{color:#697680;font-size:.86rem;line-height:1.4;font-style:italic}
+.scholar-links{font-size:.79rem;margin-top:.13rem}
+.scholar-links a{text-decoration:none;color:var(--accent)}
+@media(max-width:720px){.scholar-entry{padding:.67rem 0}.prose .scholar-title{font-size:.98rem}}
+
+
+/* Author-first, APA-inspired compact bibliography */
+.scholar-entry{padding:.48rem 0 .57rem}
+.prose .scholar-citation{margin:0;font-size:.93rem;line-height:1.52;color:#394550}
+.scholar-citation .scholar-authors{font-size:inherit;color:#354250}
+.scholar-citation .scholar-pubyear{color:var(--sub);white-space:nowrap}
+.scholar-citation .scholar-title{font-size:inherit;font-weight:500;line-height:inherit;color:var(--ink)}
+.scholar-citation .scholar-title a{color:#285d8e}
+.scholar-citation .scholar-venue{font-size:inherit;font-style:italic;color:#596774}
+.scholar-links{margin-top:0;font-size:.76rem}
+
+
+/* 2026 academic refresh: al-folio-inspired restraint, readable layout and focus states. */
+:root{--ink:#172b40;--body:#344353;--accent:#166080;--line:#e2e8ed;--sub:#617382;--paper:#f6f8fa}
+body{font:16px/1.72 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{width:min(1080px,calc(100% - 3rem))}
+.header{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(255,255,255,.97)}
+.nav{min-height:68px;gap:1.5rem}.brand{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.24rem;letter-spacing:-.045em;font-weight:760}
+nav{gap:.25rem;align-items:center}nav a{display:inline-flex;padding:.45rem .68rem;border-radius:6px;font-size:.84rem;font-weight:550;color:#43576a;transition:background .15s,color .15s}
+nav a:hover,nav a[aria-current="page"]{background:#edf4f7;color:var(--accent);text-decoration:none}
+a:focus-visible{outline:3px solid #6aa6c3;outline-offset:3px;border-radius:3px}
+.main{padding:3.7rem 0 5.5rem;min-height:65vh}.prose{max-width:840px}
+.main h1,.prose h1{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:750;letter-spacing:-.052em;line-height:1.14;margin:.15em 0 .85em}
+.prose h2{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.45rem;font-weight:700;letter-spacing:-.025em;margin-top:2.7rem;padding-bottom:.4rem}
+.prose h3{font-size:1.12rem;font-weight:680}.prose p{margin:.8rem 0}.prose li{margin:.4rem 0}
+.eyebrow{font-size:.68rem;letter-spacing:.16em;font-weight:750}
+.hero{max-width:850px;padding:1.2rem 0 2.2rem;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2.8rem,6vw,4.45rem);letter-spacing:-.065em;margin:.18em 0 .28em}
+.lead{font-size:clamp(1.12rem,2vw,1.38rem);line-height:1.55;color:#526a7b;max-width:780px}
+.pill{font-size:.8rem;background:#f0f5f7;border-color:#dce8ed;color:#375b70;padding:.32rem .7rem;margin:.15rem .25rem .15rem 0}
+.cards{gap:.85rem;margin:1.5rem 0}.card{border-radius:9px;padding:1.15rem 1.2rem;border-color:var(--line);line-height:1.55;box-shadow:0 2px 12px rgba(22,48,69,.025)}
+.card strong{margin-bottom:.4rem;font-size:.97rem}.card a{color:var(--accent)}.card:hover{border-color:#bdd1dc}
+.footer .wrap{min-height:84px}.footer{background:#f9fafb}
+.scholar-list{max-width:840px}.prose .scholar-year{color:var(--ink);margin-top:1.8rem}
+.prose .scholar-citation{font-size:.91rem;line-height:1.55}.scholar-entry{padding:.54rem 0 .62rem}
+@media(max-width:780px){.wrap{width:calc(100% - 2rem)}.header{position:static}.nav{padding:.8rem 0;flex-direction:column;align-items:flex-start;gap:.5rem}nav{gap:.15rem;flex-wrap:wrap}nav a{padding:.35rem .52rem;font-size:.84rem}.main{padding:2.1rem 0 3.5rem}.hero{padding:.4rem 0 1.45rem}.cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}nav a{transition:none}}
+
+
+/* Portfolio direction: contemporary al-folio rhythm with a distinct identity. */
+:root{--accent:#087c83;--ink:#172c3c;--body:#42515e;--sub:#697a86;--paper:#f7faf9;--line:#e2eae9}
+body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
+.header{box-shadow:0 1px 0 rgba(19,54,60,.025)}.brand{letter-spacing:-.055em}.nav a[aria-current="page"],.nav a:hover{background:#edf7f6;color:#087c83}
+.main{padding-top:3.4rem}.prose{max-width:880px}
+.profile-hero{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:clamp(2rem,5vw,5.5rem);align-items:center;padding:2.2rem 0 3.8rem;border-bottom:1px solid var(--line)}
+.profile-copy{min-width:0}.profile-copy .eyebrow{color:#087c83;margin-bottom:1.1rem}
+.prose .profile-copy h1{font-size:clamp(3.15rem,7vw,5.3rem);letter-spacing:-.078em;margin:.05rem 0 1.2rem;line-height:1.03}
+.profile-copy .lead{font-size:clamp(1.25rem,2vw,1.55rem);line-height:1.46;max-width:690px;color:#233f4b;margin:0 0 1rem}
+.profile-copy>p:not(.lead){max-width:675px;line-height:1.73;color:#53616b}
+.profile-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.75rem 0}
+.profile-actions a{display:inline-flex;align-items:center;gap:.7rem;padding:.65rem 1.1rem;border:1px solid #c9dad9;border-radius:7px;text-decoration:none;font-weight:650;font-size:.9rem}
+.profile-actions .action-primary{background:#087c83;border-color:#087c83;color:#fff}.profile-actions .action-primary:hover{background:#07686e}
+.profile-actions .action-secondary{background:#fff;color:#176b70}.profile-actions a:hover{text-decoration:none;transform:translateY(-1px)}
+.profile-social{display:flex;flex-wrap:wrap;gap:.4rem 1.35rem;font-size:.83rem}
+.profile-social a{text-decoration:none;color:#477078}.profile-social a:hover{text-decoration:underline}
+.profile-aside{background:#f5f9f8;border:1px solid #e0eeeb;border-radius:12px;padding:1.45rem 1.55rem}
+.aside-label,.feature-number{font-size:.68rem;font-weight:750;letter-spacing:.13em;color:#5c8b88}
+.aside-topic{font-size:.93rem;font-weight:600;color:#2c4c50;padding:.72rem 0;border-bottom:1px solid #deebe8}
+.aside-link{display:inline-block;margin-top:1.2rem;text-decoration:none;font-size:.86rem;font-weight:650}
+.feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0 2.8rem}
+.feature-link{display:flex;flex-direction:column;gap:.8rem;border:1px solid var(--line);border-radius:10px;padding:1.4rem 1.5rem;text-decoration:none!important;background:#fff;min-height:168px;transition:border-color .17s,background .17s,transform .17s}
+.feature-link strong{font-size:1.14rem;line-height:1.25;color:var(--ink)}.feature-link strong span{color:#0d8b8a}.feature-link>span:last-child{font-size:.89rem;line-height:1.6;color:#657681}
+.feature-link:hover{border-color:#9ac9c2;background:#fbfefd;transform:translateY(-2px)}
+.prose h2{border-bottom-color:var(--line)}.scholar-title a,.scholar-citation .scholar-title a{color:#087b83}
+@media(max-width:850px){.profile-hero{grid-template-columns:1fr;gap:1.7rem;padding:1.3rem 0 2.7rem}.profile-aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1rem}.aside-label,.aside-link{grid-column:1/-1}}
+@media(max-width:600px){.feature-grid{grid-template-columns:1fr}.profile-aside{grid-template-columns:1fr}.profile-hero{padding-top:.4rem}.prose .profile-copy h1{font-size:3.15rem}.feature-link{min-height:0}.profile-actions a{font-size:.86rem}}
+@media(prefers-reduced-motion:reduce){.feature-link,.profile-actions a{transition:none}.feature-link:hover,.profile-actions a:hover{transform:none}}
+
+
+/* Softer academic typography: lighter, calmer titles and section headings. */
+.main > h1{
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-weight:400;
+  font-size:clamp(2rem,3.5vw,2.85rem);
+  line-height:1.22;
+  letter-spacing:-.035em;
+  max-width:940px;
+}
+.prose h2{
+  font-weight:500;
+  letter-spacing:-.02em;
+}
+.prose h3{
+  font-weight:550;
+}
+
+/* Keep the home title consistent with other page headings. */
+.prose .hero h1{
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:clamp(2rem,3.5vw,2.85rem);
+  font-weight:400;
+  line-height:1.22;
+  letter-spacing:-.035em;
+  margin:.15em 0 .85em;
+}
+/* When the brand is omitted on the homepage, align the navigation to the right. */
+.header .nav:has(> nav:first-child){justify-content:flex-end}
+@media(max-width:780px){.header .nav:has(> nav:first-child){align-items:flex-start}}
+
+
+/* Publication numbers form a consistent left gutter without changing citations. */
+.scholar-entry{position:relative;padding-left:2.6rem}
+.scholar-number{position:absolute;left:0;top:.55rem;min-width:2rem;text-align:right;font-size:.88rem;line-height:1.55;font-weight:600;color:var(--sub);font-variant-numeric:tabular-nums}
+@media(max-width:600px){.scholar-entry{padding-left:2.3rem}.scholar-number{min-width:1.8rem}}
+
+/* Keep the site-wide navigation aligned to the right. */
+.header .nav{justify-content:flex-end}
+.header .nav > nav{margin-left:auto;justify-content:flex-end}
+@media(max-width:780px){.header .nav{align-items:stretch}.header .nav > nav{margin-left:0;justify-content:flex-end}}

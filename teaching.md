@@ -32,9 +32,9 @@ This course builds on .NET Framework and C# and covers technologies and framewor
 
 This course in the MSE Master's programme covers advanced topics in software engineering and software architecture. I taught it with colleagues from Lucerne and Winterthur, covering software evolution, software analysis and visualisation.
 
-### [Software Development Process](http://web.fhnw.ch/plattformen/sepc) (2018)
+### [Software Development Process]https://sgi.pages.fhnw.ch/moduluebersicht/2026hs/sepC/drehbuch.html) (2018)
 
-A practical introduction to modern software development processes and project management, including agile development and the Scrum City Game, a Scrum simulation project.
+A practical introduction to modern software development processes and project management, including agile development and the Scrum City Game, a Scrum simulation game. At that time, we played the game using paper, scissors, glue and coloured pencils – it was great fun.
 
 ### Mobile Application Development (2008)
 

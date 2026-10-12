@@ -10,21 +10,21 @@ description: Software engineering courses taught by Martin Kropp at FHNW.
 
 Guided by the two fundamental principles that software engineering is an empirical discipline, where decisions are based on evidence, experimentation, and continuous feedback; and that software engineering is about developing and evolving software over time, this course introduces the fundamental principles and practices of professional software engineering. Students apply these principles through practical exercises in software design, clean code, testing, version control, and collaborative development, with an emphasis on quality, maintainability, and continuous improvement.
 
-### [.NET Framework and C#](http://web.fhnw.ch/plattformen/dnfc)
+### [.NET Framework and C#](https://www.fhnw.ch/plattformen/ecnf/)
 
 This course covers the core .NET architecture and runtime model (CLR), with an in-depth introduction to the C# programming language. It looks behind the scenes at the garbage collector, Intermediate Language, LINQ, lambda expressions and extension methods.
 
-### [Software Testing and Quality Management](http://web.fhnw.ch/plattformen/stqm/)
+### [Software Testing and Quality Management](https://www.fhnw.ch/plattformen/stqm/)
 
 Building on Software Construction, this course teaches advanced methods for building high-quality software and controlling and ensuring software quality with modern tools. Topics include distributed version control and workflows, acceptance testing, GUI testing, database testing, review techniques, quality assurance planning, technical debt, dependency management and traceability in software projects.
 
 ## Former Courses
 
-### [Software Construction](http://web.fhnw.ch/plattformen/swc)
+### [Software Construction](https://www.fhnw.ch/plattformen/swc/)
 
 This undergraduate course covers methods and tools for effective software development in the small. Topics include version control with Git, build automation, continuous integration, refactoring, unit testing, mock testing, metrics and simple code analysis — the technical competences and tools needed for agile development.
 
-### [.NET Enterprise Application Development](http://web.fhnw.ch/plattformen/dnead)
+### [.NET Enterprise Application Development](https://www.fhnw.ch/plattformen/dnead/)
 
 This course builds on .NET Framework and C# and covers technologies and frameworks for .NET enterprise applications: GUI development with WPF; web development with ASP.NET, MVVM, MVC and Silverlight; and database and service development with ADO.NET, Entity Framework, WCF and WF.
 

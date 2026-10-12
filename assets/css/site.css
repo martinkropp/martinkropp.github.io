@@ -121,3 +121,9 @@ body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
 /* When the brand is omitted on the homepage, align the navigation to the right. */
 .header .nav:has(> nav:first-child){justify-content:flex-end}
 @media(max-width:780px){.header .nav:has(> nav:first-child){align-items:flex-start}}
+
+
+/* Publication numbers form a consistent left gutter without changing citations. */
+.scholar-entry{position:relative;padding-left:2.6rem}
+.scholar-number{position:absolute;left:0;top:.55rem;min-width:2rem;text-align:right;font-size:.88rem;line-height:1.55;font-weight:600;color:var(--sub);font-variant-numeric:tabular-nums}
+@media(max-width:600px){.scholar-entry{padding-left:2.3rem}.scholar-number{min-width:1.8rem}}

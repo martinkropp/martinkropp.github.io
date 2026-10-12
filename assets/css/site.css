@@ -127,3 +127,8 @@ body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
 .scholar-entry{position:relative;padding-left:2.6rem}
 .scholar-number{position:absolute;left:0;top:.55rem;min-width:2rem;text-align:right;font-size:.88rem;line-height:1.55;font-weight:600;color:var(--sub);font-variant-numeric:tabular-nums}
 @media(max-width:600px){.scholar-entry{padding-left:2.3rem}.scholar-number{min-width:1.8rem}}
+
+/* Keep the site-wide navigation aligned to the right. */
+.header .nav{justify-content:flex-end}
+.header .nav > nav{margin-left:auto;justify-content:flex-end}
+@media(max-width:780px){.header .nav{align-items:stretch}.header .nav > nav{margin-left:0;justify-content:flex-end}}

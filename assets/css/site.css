@@ -139,3 +139,6 @@ body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
 .hero-with-photo .hero-content{min-width:0}
 .hero-portrait{display:block;width:100%;max-width:220px;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:9px;border:1px solid var(--line)}
 @media(max-width:650px){.hero-with-photo{grid-template-columns:1fr}.hero-portrait{grid-row:1;max-width:155px;aspect-ratio:4/5}}
+
+/* Match the homepage heading's vertical start with all other page titles. */
+.hero.hero-with-photo{padding-top:0}

@@ -135,10 +135,12 @@ body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
 
 
 /* Homepage portrait: restrained academic split layout. */
-.hero-with-photo{display:grid;grid-template-columns:minmax(0,1fr) 220px;align-items:start;gap:clamp(1.5rem,4vw,3.5rem);max-width:100%}
+.hero-with-photo{display:grid;--portrait-width:180px;grid-template-columns:minmax(0,1fr) var(--portrait-width);align-items:start;gap:clamp(1.5rem,4vw,3.5rem);max-width:100%}
 .hero-with-photo .hero-content{min-width:0}
-.hero-portrait{display:block;width:100%;max-width:220px;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:9px;border:1px solid var(--line)}
-@media(max-width:650px){.hero-with-photo{grid-template-columns:1fr}.hero-portrait{grid-row:1;max-width:155px;aspect-ratio:4/5}}
+.hero-portrait{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:9px;border:1px solid var(--line)}
+@media(max-width:650px){.hero-with-photo{grid-template-columns:1fr}.hero-portrait{grid-row:1;width:min(100%,var(--portrait-width));aspect-ratio:4/5}}
 
-/* Match the homepage heading's vertical start with all other page titles. */
-.hero.hero-with-photo{padding-top:0}
+/* Align the portrait with the main title, below the introductory eyebrow. */
+.hero.hero-portrait-section{padding-top:0}
+.hero-portrait-section .hero-portrait{margin-top:.43rem}
+@media(max-width:650px){.hero-portrait-section .hero-portrait{margin-top:0}}

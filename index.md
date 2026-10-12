@@ -3,15 +3,17 @@ title: Home
 permalink: /
 description: Martin Kropp — software engineering research, teaching and academic activities.
 ---
-<div class="hero hero-with-photo">
-<div class="hero-content">
+<div class="hero hero-portrait-section">
 <div class="eyebrow">SOFTWARE ENGINEERING · AGILE METHODS · COLLABORATION</div>
+<div class="hero-with-photo">
+<div class="hero-content">
 <h1>Martin Kropp</h1>
 <p class="lead">Professor of Software Engineering at the University of Applied Sciences and Arts Northwestern Switzerland (FHNW).</p>
 <p>I teach and research how software development can become more efficient and ffective through agile methodologies, collaborative technologies, automated construction, software metrics and analysis, and, of course, with the help of AI.</p>
 <p><a href="/research">Explore research →</a> &nbsp; <a href="/publications">Publications →</a> &nbsp; <a href="/about">About me →</a></p>
 </div>
-<img class="hero-portrait" src="{{ '/me.jpg' | relative_url }}" alt="Portrait of Martin Kropp" width="120" loading="eager" decoding="async">
+<img class="hero-portrait" src="{{ '/me.jpg' | relative_url }}" alt="Portrait of Martin Kropp" loading="eager" decoding="async">
+</div>
 </div>
 
 ## Research interests

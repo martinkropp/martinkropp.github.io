@@ -4,31 +4,33 @@ permalink: /teaching
 description: Software engineering courses taught by Martin Kropp at FHNW.
 ---
 
-## Spring term
+## Current Courses
 
-### [Software Construction](http://web.fhnw.ch/plattformen/swc)
+### [Software Engineering Fundamentals](https://swef1.pages.fhnw.ch/docs/swef-website/26HS/index.html)
 
-This undergraduate course covers methods and tools for effective software development in the small. Topics include version control with Git, build automation, continuous integration, refactoring, unit testing, mock testing, metrics and simple code analysis — the technical competences and tools needed for agile development.
+Guided by the two fundamental principles that software engineering is an empirical discipline, where decisions are based on evidence, experimentation, and continuous feedback; and that software engineering is about developing and evolving software over time, this course introduces the fundamental principles and practices of professional software engineering. Students apply these principles through practical exercises in software design, clean code, testing, version control, and collaborative development, with an emphasis on quality, maintainability, and continuous improvement.
 
 ### [.NET Framework and C#](http://web.fhnw.ch/plattformen/dnfc)
 
 This course covers the core .NET architecture and runtime model (CLR), with an in-depth introduction to the C# programming language. It looks behind the scenes at the garbage collector, Intermediate Language, LINQ, lambda expressions and extension methods.
 
-### [.NET Enterprise Application Development](http://web.fhnw.ch/plattformen/dnead)
-
-This course builds on .NET Framework and C# and covers technologies and frameworks for .NET enterprise applications: GUI development with WPF; web development with ASP.NET, MVVM, MVC and Silverlight; and database and service development with ADO.NET, Entity Framework, WCF and WF.
-
-## Fall term
-
-### [Software Engineering and Architectures](http://moodle.msengineering.ch/course/view.php?id=37) (Graduate)
-
-This course in the MSE Master's programme covers advanced topics in software engineering and software architecture. I taught it with colleagues from Lucerne and Winterthur, covering software evolution, software analysis and visualisation.
-
 ### [Software Testing and Quality Management](http://web.fhnw.ch/plattformen/stqm/)
 
 Building on Software Construction, this course teaches advanced methods for building high-quality software and controlling and ensuring software quality with modern tools. Topics include distributed version control and workflows, acceptance testing, GUI testing, database testing, review techniques, quality assurance planning, technical debt, dependency management and traceability in software projects.
 
-## Former courses
+## Former Courses
+
+### [Software Construction](http://web.fhnw.ch/plattformen/swc)
+
+This undergraduate course covers methods and tools for effective software development in the small. Topics include version control with Git, build automation, continuous integration, refactoring, unit testing, mock testing, metrics and simple code analysis — the technical competences and tools needed for agile development.
+
+### [.NET Enterprise Application Development](http://web.fhnw.ch/plattformen/dnead)
+
+This course builds on .NET Framework and C# and covers technologies and frameworks for .NET enterprise applications: GUI development with WPF; web development with ASP.NET, MVVM, MVC and Silverlight; and database and service development with ADO.NET, Entity Framework, WCF and WF.
+
+### [Software Engineering and Architectures](http://moodle.msengineering.ch/course/view.php?id=37) (Graduate)
+
+This course in the MSE Master's programme covers advanced topics in software engineering and software architecture. I taught it with colleagues from Lucerne and Winterthur, covering software evolution, software analysis and visualisation.
 
 ### [Software Development Process](http://web.fhnw.ch/plattformen/sepc) (2018)
 

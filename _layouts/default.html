@@ -11,7 +11,7 @@
 <body>
 <a class="skip" href="#content">Skip to content</a>
 <header class="header"><div class="wrap nav">
-  <a class="brand" href="{{ '/' | relative_url }}">Martin Kropp<span class="brand-dot">.</span></a>
+  {% if page.url != '/' %}<a class="brand" href="{{ '/' | relative_url }}">Martin Kropp<span class="brand-dot">.</span></a>{% endif %}
   <nav aria-label="Main navigation">
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
     <a href="{{ '/about' | relative_url }}" {% if page.url == '/about' or page.url == '/about/' %}aria-current="page"{% endif %}>About</a>

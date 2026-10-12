@@ -108,3 +108,16 @@ body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
 .prose h3{
   font-weight:550;
 }
+
+/* Keep the home title consistent with other page headings. */
+.prose .hero h1{
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:clamp(2rem,3.5vw,2.85rem);
+  font-weight:400;
+  line-height:1.22;
+  letter-spacing:-.035em;
+  margin:.15em 0 .85em;
+}
+/* When the brand is omitted on the homepage, align the navigation to the right. */
+.header .nav:has(> nav:first-child){justify-content:flex-end}
+@media(max-width:780px){.header .nav:has(> nav:first-child){align-items:flex-start}}

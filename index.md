@@ -4,7 +4,7 @@ permalink: /
 description: Martin Kropp — software engineering research, teaching and academic activities.
 ---
 <div class="hero hero-portrait-section">
-<div class="eyebrow">SOFTWARE ENGINEERING · AGILE METHODS · COLLABORATION</div>
+<div class="eyebrow">SOFTWARE ENGINEERING · AGILE METHODS · HYBRID COLLABORATION</div>
 <div class="hero-with-photo">
 <div class="hero-content">
 <h1>Martin Kropp</h1>

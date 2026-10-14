@@ -12,6 +12,24 @@ My research focuses on everything that helps make software development more effi
 
 I am co-founder of the [Swiss Agile Research Network (SARN)](http://www.swissagileresearchnetwork.ch/) and co-author of the bi-annual [Swiss Agile Study](http://www.swissagilestudy.ch/).
 
+## Selected Academic Achievements
+
+### Empirical research on agile software development
+
+I helped establish a sustained empirical research programme on agile software development, beginning with the recurring [Swiss Agile Studies](http://www.swissagilestudy.ch/) and research on agile success factors, and extending to international collaborations. The work examines how agile practices affect teamwork, satisfaction, stress, leadership, social support and software-delivery performance. I co-founded the [Swiss Agile Research Network](http://www.swissagileresearchnetwork.ch/) and served as Organiser and General Co-Chair of **XP 2025**, bringing the international conference on agile software development to FHNW in Switzerland.
+
+### Hybrid agile collaboration and interactive technologies
+
+I initiated a long-term research direction on interactive technologies for agile collaboration. Its central platform, **aWall**, uses large interactive digital card walls to support planning, coordination and shared awareness in co-located, distributed and hybrid teams. The work has developed from multi-touch prototypes to multi-project coordination and investigations into AI-supported hybrid collaboration. International research visits and collaborations contributed to this work, and I co-founded [aTouch Dynamics](https://www.atouch.ch/) in 2018 to explore its transfer into professional practice. [Explore the research projects](/research).
+
+### Automation and AI-assisted software engineering
+
+My research on software engineering also examines how automation and AI change development processes and software quality. Recent work includes automated measurement of **DORA software-delivery metrics**, AI-based REST API test generation, empirical studies of prompt management, and benchmarking prompt-engineering techniques for secure code generation. These investigations combine software-engineering practice, empirical evaluation and collaboration with research and industry partners. [Selected results are listed in my publications](/publications).
+
+### Agile leadership and continuing education
+
+I conceived and established a continuing-education pathway at FHNW focused on agile leadership, coaching and organisational transformation: the **MAS Agile Organisation**. As part of this work, I developed the **CAS Agile Organisation** and **CAS Agile Coaching** programmes, including their curricula, teaching concepts and practitioner networks. The programmes connect research and professional experience in agile software engineering with advanced education for practitioners and leaders.
+
 ## Teaching and continuing education
 
 I have headed the [CAS Agile Organisation](https://www.fhnw.ch/de/weiterbildung/technik/cas-agile-organisation) continuing education programme at FHNW. The programme addresses project managers, team managers, project leaders and company managers, including participants outside IT, who wish to make their organisations more agile. The [Agile Organisation blogs](http://www.agileorganisation.org/) document experiences from earlier courses.

@@ -30,12 +30,6 @@ My research on software engineering also examines how automation and AI change d
 
 I conceived and established a continuing-education pathway at FHNW focused on agile leadership, coaching and organisational transformation: the **MAS Agile Organisation**. As part of this work, I developed the **CAS Agile Organisation** and **CAS Agile Coaching** programmes, including their curricula, teaching concepts and practitioner networks. The programmes connect research and professional experience in agile software engineering with advanced education for practitioners and leaders.
 
-## Teaching and continuing education
-
-I have headed the [CAS Agile Organisation](https://www.fhnw.ch/de/weiterbildung/technik/cas-agile-organisation) continuing education programme at FHNW. The programme addresses project managers, team managers, project leaders and company managers, including participants outside IT, who wish to make their organisations more agile. The [Agile Organisation blogs](http://www.agileorganisation.org/) document experiences from earlier courses.
-
-I am a Certified Scrum Master (CSM) and a member of the [Scrum Alliance](https://www.scrumalliance.org/).
-
 ## Innovation and collaboration
 
 I co-founded [aTouch dynamics](https://www.atouch.ch/), a startup developing tools for agile collaboration with extra-large multi-touch displays. Its aWall product supports distributed collaboration and meetings including daily stand-ups and sprint planning. [Contact aTouch dynamics](mailto:martin.kropp@atouch.ch).

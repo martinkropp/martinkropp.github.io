@@ -19,9 +19,10 @@ description: Martin Kropp — software engineering research, teaching and academ
 ## Research interests
 
 <span class="pill">Agile methodologies</span>
-<span class="pill">Tool-supported agile collaboration</span>
+<span class="pill">Tool-supported agile hybrid collaboration</span>
 <span class="pill">Automated software construction</span>
 <span class="pill">Software metrics and analysis</span>
+<span class="pill">Software evolution in the age of AI</span>
 
 ## Academic work
 

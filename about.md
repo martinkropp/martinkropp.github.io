@@ -12,7 +12,7 @@ My research focuses on everything that helps make software development more effi
 
 I am co-founder of the [Swiss Agile Research Network (SARN)](http://www.swissagileresearchnetwork.ch/) and co-author of the bi-annual [Swiss Agile Study](http://www.swissagilestudy.ch/).
 
-## Selected Academic Achievements
+## Selected Academic Activities
 
 ### Empirical research on agile software development
 

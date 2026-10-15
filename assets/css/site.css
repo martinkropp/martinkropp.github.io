@@ -1,4 +1,4 @@
-:root{color-scheme:light;--ink:#22354b;--body:#323a43;--accent:#35637a;--line:#e4e8e8;--sub:#65727d;--paper:#faf9f6}
+:root{color-scheme:light;--accent:#087c83;--ink:#172c3c;--body:#42515e;--sub:#697a86;--paper:#f7faf9;--line:#e2eae9}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--body);font:17px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif}
 .wrap{width:min(1040px,calc(100% - 3rem));margin:auto}.header{border-bottom:1px solid var(--line);background:#fff}.nav{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:2rem}.brand{font-family:Georgia,serif;font-size:1.5rem;font-weight:700;text-decoration:none;color:var(--ink)}.brand-dot{color:var(--accent)}
 nav{display:flex;gap:1.3rem;flex-wrap:wrap}nav a{font-size:.89rem;color:#40576b;text-decoration:none}a{color:var(--accent)}a:hover{text-decoration:underline}
@@ -36,7 +36,7 @@ nav{display:flex;gap:1.3rem;flex-wrap:wrap}nav a{font-size:.89rem;color:#40576b;
 
 
 /* 2026 academic refresh: al-folio-inspired restraint, readable layout and focus states. */
-:root{--ink:#172b40;--body:#344353;--accent:#166080;--line:#e2e8ed;--sub:#617382;--paper:#f6f8fa}
+
 body{font:16px/1.72 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
 .wrap{width:min(1080px,calc(100% - 3rem))}
 .header{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(255,255,255,.97)}
@@ -63,34 +63,12 @@ a:focus-visible{outline:3px solid #6aa6c3;outline-offset:3px;border-radius:3px}
 
 
 /* Portfolio direction: contemporary al-folio rhythm with a distinct identity. */
-:root{--accent:#087c83;--ink:#172c3c;--body:#42515e;--sub:#697a86;--paper:#f7faf9;--line:#e2eae9}
+
 body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
 .header{box-shadow:0 1px 0 rgba(19,54,60,.025)}.brand{letter-spacing:-.055em}.nav a[aria-current="page"],.nav a:hover{background:#edf7f6;color:#087c83}
 .main{padding-top:3.4rem}.prose{max-width:880px}
-.profile-hero{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:clamp(2rem,5vw,5.5rem);align-items:center;padding:2.2rem 0 3.8rem;border-bottom:1px solid var(--line)}
-.profile-copy{min-width:0}.profile-copy .eyebrow{color:#087c83;margin-bottom:1.1rem}
-.prose .profile-copy h1{font-size:clamp(3.15rem,7vw,5.3rem);letter-spacing:-.078em;margin:.05rem 0 1.2rem;line-height:1.03}
-.profile-copy .lead{font-size:clamp(1.25rem,2vw,1.55rem);line-height:1.46;max-width:690px;color:#233f4b;margin:0 0 1rem}
-.profile-copy>p:not(.lead){max-width:675px;line-height:1.73;color:#53616b}
-.profile-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.75rem 0}
-.profile-actions a{display:inline-flex;align-items:center;gap:.7rem;padding:.65rem 1.1rem;border:1px solid #c9dad9;border-radius:7px;text-decoration:none;font-weight:650;font-size:.9rem}
-.profile-actions .action-primary{background:#087c83;border-color:#087c83;color:#fff}.profile-actions .action-primary:hover{background:#07686e}
-.profile-actions .action-secondary{background:#fff;color:#176b70}.profile-actions a:hover{text-decoration:none;transform:translateY(-1px)}
-.profile-social{display:flex;flex-wrap:wrap;gap:.4rem 1.35rem;font-size:.83rem}
-.profile-social a{text-decoration:none;color:#477078}.profile-social a:hover{text-decoration:underline}
-.profile-aside{background:#f5f9f8;border:1px solid #e0eeeb;border-radius:12px;padding:1.45rem 1.55rem}
-.aside-label,.feature-number{font-size:.68rem;font-weight:750;letter-spacing:.13em;color:#5c8b88}
-.aside-topic{font-size:.93rem;font-weight:600;color:#2c4c50;padding:.72rem 0;border-bottom:1px solid #deebe8}
-.aside-link{display:inline-block;margin-top:1.2rem;text-decoration:none;font-size:.86rem;font-weight:650}
-.feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0 2.8rem}
-.feature-link{display:flex;flex-direction:column;gap:.8rem;border:1px solid var(--line);border-radius:10px;padding:1.4rem 1.5rem;text-decoration:none!important;background:#fff;min-height:168px;transition:border-color .17s,background .17s,transform .17s}
-.feature-link strong{font-size:1.14rem;line-height:1.25;color:var(--ink)}.feature-link strong span{color:#0d8b8a}.feature-link>span:last-child{font-size:.89rem;line-height:1.6;color:#657681}
-.feature-link:hover{border-color:#9ac9c2;background:#fbfefd;transform:translateY(-2px)}
+/* Current site's bibliography link and heading accents. */
 .prose h2{border-bottom-color:var(--line)}.scholar-title a,.scholar-citation .scholar-title a{color:#087b83}
-@media(max-width:850px){.profile-hero{grid-template-columns:1fr;gap:1.7rem;padding:1.3rem 0 2.7rem}.profile-aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1rem}.aside-label,.aside-link{grid-column:1/-1}}
-@media(max-width:600px){.feature-grid{grid-template-columns:1fr}.profile-aside{grid-template-columns:1fr}.profile-hero{padding-top:.4rem}.prose .profile-copy h1{font-size:3.15rem}.feature-link{min-height:0}.profile-actions a{font-size:.86rem}}
-@media(prefers-reduced-motion:reduce){.feature-link,.profile-actions a{transition:none}.feature-link:hover,.profile-actions a:hover{transform:none}}
-
 
 /* Softer academic typography: lighter, calmer titles and section headings. */
 .main > h1{
@@ -118,9 +96,6 @@ body{background:#fff}.brand-dot{color:#0b9292}a{color:#097a82}
   letter-spacing:-.035em;
   margin:.15em 0 .85em;
 }
-/* When the brand is omitted on the homepage, align the navigation to the right. */
-.header .nav:has(> nav:first-child){justify-content:flex-end}
-@media(max-width:780px){.header .nav:has(> nav:first-child){align-items:flex-start}}
 
 
 /* Publication numbers form a consistent left gutter without changing citations. */

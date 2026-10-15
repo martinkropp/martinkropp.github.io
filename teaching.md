@@ -18,6 +18,10 @@ This course covers the core .NET architecture and runtime model (CLR), with an i
 
 Building on Software Construction, this course teaches advanced methods for building high-quality software and controlling and ensuring software quality with modern tools. Topics include distributed version control and workflows, acceptance testing, GUI testing, database testing, review techniques, quality assurance planning, technical debt, dependency management and traceability in software projects.
 
+## Supervised Student Research
+
+Master's theses and semester projects complement my teaching and contribute to ongoing applied research in software engineering. [Explore supervised student research →](/student-research)
+
 ## Former Courses
 
 ### [Software Construction](https://www.fhnw.ch/plattformen/swc/)

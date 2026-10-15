@@ -20,15 +20,17 @@ I helped establish a sustained empirical research programme on agile software de
 
 ### Hybrid agile collaboration and interactive technologies
 
-I initiated a long-term research direction on interactive technologies for agile collaboration. Its central platform, **aWall**, uses large interactive digital card walls to support planning, coordination and shared awareness in co-located, distributed and hybrid teams. The work has developed from multi-touch prototypes to multi-project coordination and investigations into AI-supported hybrid collaboration. International research visits and collaborations contributed to this work, and I co-founded [aTouch Dynamics](https://www.atouch.ch/) in 2018 to explore its transfer into professional practice. [Explore the research projects](/research).
+I initiated a long-term research direction on interactive technologies for agile collaboration. Its central platform, **aWall**, uses large interactive digital card walls to support planning, coordination and shared awareness in co-located, distributed and hybrid teams. The work has developed from multi-touch prototypes to multi-project coordination and investigations into AI-supported hybrid collaboration. International research visits and collaborations contributed to this work, and I co-founded [aTouch Dynamics](https://www.atouch.ch/) in 2018 to explore its transfer into professional practice.
 
 ### Automation and AI-assisted software engineering
 
-My research on software engineering also examines how automation and AI change development processes and software quality. Recent work includes automated measurement of **DORA software-delivery metrics**, AI-based REST API test generation, empirical studies of prompt management, and benchmarking prompt-engineering techniques for secure code generation. These investigations combine software-engineering practice, empirical evaluation and collaboration with research and industry partners. [Selected results are listed in my publications](/publications).
+My research on software engineering also examines how automation and AI change development processes and software quality. Recent work includes automated measurement of **DORA software-delivery metrics**, AI-based REST API test generation, empirical studies of prompt management, and benchmarking prompt-engineering techniques for secure code generation. These investigations combine software-engineering practice, empirical evaluation and collaboration with research and industry partners.
 
 ### Agile leadership and continuing education
 
 I conceived and established a continuing-education pathway at FHNW focused on agile leadership, coaching and organisational transformation: the **MAS Agile Organisation**. As part of this work, I developed the **CAS Agile Organisation** and **CAS Agile Coaching** programmes, including their curricula, teaching concepts and practitioner networks. The programmes connect research and professional experience in agile software engineering with advanced education for practitioners and leaders.
+
+**Related:** [Research Projects](/research) · [Publications](/publications) · [Teaching](/teaching)
 
 ## Innovation and collaboration
 

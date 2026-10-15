@@ -3,8 +3,6 @@ title: Research
 permalink: /research
 ---
 
-
-
 ## Current research
 
 ### aWall — Agile and Hybrid Collaboration (Ongoing)
@@ -83,48 +81,52 @@ The first nationwide Swiss Agile Study examined software-development methodologi
   Funding: Hasler Stiftung Switzerland, SwissICT, ICTnet, SWEN
   Web: [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).
 
-### ReFit
+### ReFit (2010–2012)
 
-**(2010-2012)**An Eclipse plug-in for automatic refactoring of Fit test. The origin goes back on the ProMedServices project. The plug-in has been published as an open source project on sourceforge.  Find more on [sourceforge.net/projects/fitrefactoring/](http://sourceforge.net/projects/fitrefactoring/).
+ReFit was an Eclipse plug-in for the automated refactoring of Fit acceptance tests, originating from the ProMedServices project. The plug-in was published as an open-source project on [SourceForge](http://sourceforge.net/projects/fitrefactoring/).
+
   Funding: Hasler Stiftung Switzerland, Förderverein Fachhochschule Nordwestschweiz
 
-### ProMedServices - ProActive Software Service Evolution (2007-2009)
+### ProMedServices — ProActive Software Service Evolution (2007–2009)
 
-The goal of this project is to extend and develop new techniques in software analysis and software service development and to prove their practical applicability in a large distributed system in a critical field. To achieve these goals, the project will formulate methods and develop techniques for detecting software decay. We will integrate expertise from areas of software evolution, distributed and mobile systems as well as service engineering to explore new ways for software service improvement on a large scale. Techniques from architecture reconstruction, refactoring, service engineering and testing will be combined in a software service evolution toolbox to provide a software architect with pro-active tools and processes to ensure and improve software service quality during software development.
+This project investigated techniques for analysing and evolving software services in a large distributed system. Drawing on architecture reconstruction, refactoring, service engineering and testing, it explored how to detect software decay and support proactive improvement of software quality.
+
   Partners: University Hospital Geneva (HUG); University of Zurich, ifi-SEAL
   Funding: Hasler Stiftung Switzerland
 
+### BEAP — Beamline Experimental Application (2008)
 
-### BEAP - Beamline Experimental APplication (2008)
+Developed a high-speed TCP/IP and UDP communication library in .NET and C# for accessing and controlling an accelerator beamline using the EPICS protocol.
 
-Development of a high speed tcp/ip and udp communication library for accessing and controlling SLS accelerator beam line using the EPICS protocol with .Net and C#.
   Funding: HaPaul-Scherrer-Institute (PSI)
 
-### CIDB - Controls Inventory Database (2005-2007)
+### CIDB — Controls Inventory Database (2005–2007)
 
-Development of a web based hardware component management and configuration system for the PSI's accelerator systems.
+Developed a web-based system for managing and configuring hardware components in the Paul Scherrer Institute's accelerator systems.
+
   Paul-Scherrer-Institute (PSI)
 
-### Module Testing in Practice (2001-2003)
+### Module Testing in Practice (2001–2003)
 
-Während Unit-Testing in der Informatik-Welt sich mehr oder weniger etabliert hat, steckt das systematische und automatisierte Testen von Modulen in der Automationswelt noch weitestgehend in den Kinderschuhen. Dies rührt daher, dass häufig besondere Anforderungen wie Real-Time Bedingungen oder verteilte Komponententechnik herrschen. Im Rahmen dieses Projektes wurde eine Test-Umgebung für das Unit-Testing eines Leitsystem- Frameworks in einer verteilten Realtime Umgebung entwickelt und eingesetzt.
+This project developed and applied a unit-testing environment for a distributed real-time control-system framework, addressing the challenges of testing software with real-time requirements and distributed components.
+
   Ammann Aufbereitung, Langenthal; HTA Luzern; soft[net]
 
-### WED - Web Enabled Devices (2001-2003)
+### WED — Web Enabled Devices (2001–2003)
 
-Im Rahmen des Kompetenznetzwerks Edison führen wir ein Projekt zusammen mit der HEV Sion und der HTA Luzern durch, bei der wir web-fähige kleinste eingebette Systeme entwickeln. Unser Ziel ist es, dabei möglichst auf Standard-Technologie (WebServices-Protokolle) in der Informatik zurück zugreifen, und so die Integration solcher System in die Informatik-Infrastruktur wesentlich zu erleichtern.
+As part of the Edison competence network, this joint project with institutions in Sion and Lucerne investigated small web-enabled embedded systems and the use of standard web-services protocols to integrate them into IT infrastructure.
+
   HEV Sion; HTA Luzern; soft[net]
 
-### Foundation of the SWEN - SoftWare Engineering Network (2000 - 2003)
+### Foundation of SWEN — Software Engineering Network (2000–2003)
 
-Wir, d.h. die HTA Luzern, die FH St. Gallen und die FHNW haben im Rahmen des Soft[net] Programms des Bundes ein Kompetenznetz für Software Engineering in der Schweiz gegründet. Ziel des Netzwerks ist es den Technologie Transfer zwischen den (Fach-)Hochschulen und der Industrie zu sichern und das Knowhow auf dem Gebiet des Software Engineerings in der Schweiz zu bündeln und auszubauen. Durch aktive Kooperationen soll der Austausch zwischen Schulen und Industrie gefördert werden.
-  Die gesamte Industrie und Wirtschaft ist eingeladen sich daran zu beteiligen. Haben Sie Interesse oder Bedürfnisse auf dem Gebiet des Software Engineering (Prozesse, Analye, Design, Testing, etc.), sind auch Sie herzlich eingeladen mitzumachen.
+The institutions in Lucerne, St. Gallen and Northwestern Switzerland established a competence network for software engineering under the Swiss Soft[net] programme. The network promoted technology transfer, cooperation and the exchange of expertise between universities and industry.
+
   FHO St. Gallen, HTA Luzern; soft[net]
 
-### SWEED - SoftWare Engineering EDucation (2000 - 2002)
+### SWEED — Software Engineering Education (2000–2002)
 
-Das Ziel dieses Projektes ist es ein Rahmencurriculum für die Software Engineering Ausbildung an den Schweizer Fachhochschulen zu entwickeln und konkrete Ausbildungsmodule zu erstellen. Das Ausbildungsmaterial steht auch der Industrie zur Verfügung gestellt werden und wird daher auch in enger Zusammenarbeit mit dieser erstellt.
-  An dem Projekt sind viele Fachhochschulen des Landes, mehrere Industriepartner sowie die EPFL Lausanne und die Hochschule St. Gallen beteiligt und wird von der Fh St Gallen geleitet(2000 - 2002).
-  In der Kerngruppe Module war ich wesentlich an der Erstellung des Rahmencurriculums beteiligt.
-  Als "Modulproduzent" habe ich den 3-Tages Kurs "Introduction into UML", eine praktische Einführung in die UML, entwickelt, und bin nun daran das Modul "Object-Oriented Analysis" zu realisieren, welches den Weg von den Requirements zum Domain Model aufzeigt.
+This collaborative project developed a framework curriculum and teaching modules for software-engineering education at Swiss universities of applied sciences, in cooperation with universities and industry partners. I contributed to the curriculum and developed a three-day course, “Introduction into UML”, as well as work on an Object-Oriented Analysis module.
+
   FHO St. Gallen, HTA Luzern; soft[net]
+

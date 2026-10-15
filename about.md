@@ -6,7 +6,11 @@ description: Academic biography, international experience and contact details of
 
 I am a Professor of Software Engineering at the [University of Applied Sciences and Arts Northwestern Switzerland (FHNW)](https://www.fhnw.ch/), where I teach and conduct applied research in software engineering.
 
-My current research interests include agile methodologies, tool-supported hybrid collaboration, automated software construction, software metrics and analysis, and software evolution in the age of AI. I am particularly interested in understanding software-development practices through empirical research and exploring how collaborative technologies and automation can support and improve software development over time,  with an emerging focus on sustainable development and evolution of software, considering long-term maintainability, quality, cost-effectiveness and effective use of computational resources.
+My current research interests include agile methodologies, tool-supported hybrid collaboration, automated software construction, software metrics and analysis, and software evolution in the age of AI. 
+
+I am particularly interested in understanding software-development practices through empirical research and exploring how collaborative technologies, automation and AI can support and improve software development. 
+
+An emerging research focus is the sustainable development and evolution of software in the age of AI, investigating how code quality influences long-term maintainability, the effectiveness, computational effort, and cost of AI-assisted software engineering.
 
 I co-founded the [Swiss Agile Research Network (SARN)](http://www.swissagileresearchnetwork.ch/) and contributed to the recurring [Swiss Agile Study](http://www.swissagilestudy.ch/).
 

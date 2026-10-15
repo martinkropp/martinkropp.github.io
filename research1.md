@@ -9,7 +9,9 @@ permalink: /research
 
 aWall is an ongoing research initiative at our institute investigating how **large interactive digital card walls** can support planning, coordination and collaboration in agile software development teams. A particular focus is **hybrid collaboration**: enabling people working on-site and remotely to share an effective visual workspace.
 
-The research builds on earlier aWall projects in interactive card walls, multi-project coordination and online collaboration. Recent work explores how artificial intelligence can make information from everyday team communication more accessible and useful.
+The research builds on earlier aWall projects in interactive card walls, multi-project coordination and online collaboration. Current work investigates **information asymmetry in hybrid agile teams**, particularly how differences in access to project updates affect situational awareness and coordination. It explores visual awareness mechanisms, ways to reduce change blindness, and AI-supported approaches to finding and sharing relevant information.
+
+Recent supervised student projects contribute to this direction through information visualization, mechanisms for identifying unseen changes, and AI-assisted awareness during hybrid meetings. [Explore supervised student research](/student-research).
 
 ### AI Integrated Hybrid Meetings (2023–2024)
 
@@ -18,6 +20,12 @@ This research project investigated the integration of **AI-supported analysis of
 The aim was to explore how relevant information arising in discussions could be identified and brought into a shared visual workspace, helping agile teams maintain common awareness, coordinate their work and reduce the manual effort of keeping card walls up to date.
 
 This project forms part of the ongoing aWall research direction, rather than a replacement for the broader work on interactive card walls.
+
+## Research through Student Projects
+
+Master's theses and semester projects contribute to applied research in software engineering through empirical studies, prototypes and evaluations, often in collaboration with industry. Recent projects investigate information asymmetry in hybrid collaboration, automated DORA metrics and software development productivity.
+
+[Explore supervised student research →](/student-research)
 
 ## Previous projects
 

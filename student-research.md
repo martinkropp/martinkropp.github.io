@@ -8,11 +8,7 @@ I supervise Master's students working on applied research in software engineerin
 
 ## Monika Singh — Information Asymmetry in Hybrid Collaboration
 
-**Master's research project · 2025–present**
-
 *Supervision: Martin Kropp and Fabian Affolter*
-
-This research investigates how differences in access to project information affect situational awareness, coordination and collaboration in hybrid agile teams. Building on the aWall platform, the work spans successive semester projects and an ongoing Master's thesis.
 
 ### Reducing Change Blindness through AI and Session Clusters
 

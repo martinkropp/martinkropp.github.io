@@ -32,13 +32,13 @@ This course builds on .NET Framework and C# and covers technologies and framewor
 
 This course in the MSE Master's programme covers advanced topics in software engineering and software architecture. I taught it with colleagues from Lucerne and Winterthur, covering software evolution, software analysis and visualisation.
 
-### [Software Development Process]https://sgi.pages.fhnw.ch/moduluebersicht/2026hs/sepC/drehbuch.html) (2018)
+### [Software Development Process](https://sgi.pages.fhnw.ch/moduluebersicht/2026hs/sepC/drehbuch.html) (2018)
 
 A practical introduction to modern software development processes and project management, including agile development and the Scrum City Game, a Scrum simulation game. At that time, we played the game using paper, scissors, glue and coloured pencils – it was great fun.
 
 ### Mobile Application Development (2008)
 
-Dieser Kurs gibt eine fundierte praktische Einführung in die Entwicklung von mobilen Softwareanwendungen. Sie lernen die neuesten Plattformen, Methoden und Technologien zur Entwicklung portabler mobiler Softwareanwendungen für Handys kennen und anwenden.
+Dieser Kurs vermittelte eine praktische Einführung in die Entwicklung mobiler Softwareanwendungen. Im Mittelpunkt standen Plattformen, Methoden und Technologien zur Entwicklung portabler Anwendungen für mobile Geräte.
 
 ### Introduction into .NET (2008)
 
@@ -46,7 +46,7 @@ An introduction to .NET technology, covering the core base class library, archit
 
 ### Web Services Architecture (2007)
 
-Web Services haben sich als ein sehr effektiver und interoperabler Integrationsstandard etabliert und zahlreiche kommerzielle Anwendungen wurden bereits mit Web Services realisiert. In diesem Modul lernt der Student die wichtigsten Web Services Begriffe und Konzepte kennen. Anhand konkreter Programmieraufgaben wird er diese Lerninhalte anwenden und vertiefen.
+Dieser Kurs vermittelte grundlegende Begriffe und Konzepte von Web Services als interoperable Integrationstechnologie. Anhand praktischer Programmieraufgaben wurden diese Konzepte angewendet und vertieft.
 
 ### Object-oriented Analysis and Design (2003–2005)
 
@@ -56,4 +56,3 @@ An introduction to object-oriented analysis and design based on Craig Larman's b
 
 For several years I taught a thorough introduction to software engineering. During this course I also collected material, links and document templates for students.
 
----

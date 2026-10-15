@@ -38,7 +38,7 @@ A practical introduction to modern software development processes and project ma
 
 ### Mobile Application Development (2008)
 
-Dieser Kurs vermittelte eine praktische Einführung in die Entwicklung mobiler Softwareanwendungen. Im Mittelpunkt standen Plattformen, Methoden und Technologien zur Entwicklung portabler Anwendungen für mobile Geräte.
+This course provided a practical introduction to mobile application development, focusing on platforms, methods and technologies for building portable applications for mobile devices.
 
 ### Introduction into .NET (2008)
 
@@ -46,7 +46,7 @@ An introduction to .NET technology, covering the core base class library, archit
 
 ### Web Services Architecture (2007)
 
-Dieser Kurs vermittelte grundlegende Begriffe und Konzepte von Web Services als interoperable Integrationstechnologie. Anhand praktischer Programmieraufgaben wurden diese Konzepte angewendet und vertieft.
+This course introduced the fundamental concepts of web services as an interoperable integration technology. Students applied and deepened their understanding of these concepts through practical programming exercises.
 
 ### Object-oriented Analysis and Design (2003–2005)
 

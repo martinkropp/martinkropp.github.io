@@ -25,53 +25,60 @@ This project forms part of the ongoing aWall research direction, rather than a r
 
 The following project descriptions document earlier research activities. The aWall projects below are completed project phases within the continuing aWall research initiative.
 
-### aWall - agile Multi Project Coordination (2020-2021)
+### aWall — Agile Multi-Project Coordination (2020–2021)
 
-As agile methods more and more scale into the whole organisation, we also need appropriate tools that can handle this. While there exist various scaling frameworks for scaling Scrum and other agile methods into the organisation, the right digital tools are still missing, In this project we research for and develop multi-project coordination tools based on our aWall approach on large digital touch displays to efficiently and effectively coordinate projects in an organisation. Transparency, one common view and light-weight are key factors we invest.
+This project investigated how the aWall approach and large interactive displays could support coordination across multiple agile projects. The focus was on transparency, shared overviews and lightweight coordination at organisational scale.
 
-### aWall - Agile Collaboration Wall (2018-2019)
+### aWall — Agile Collaboration Wall (2018–2019)
 
-The research on agile collaboration tools for team on extra-large multi-touch displays has been continued since the SI-ATM project and brought out the aWall tool and created the spin-off company [aTouch Dynamics](https://www.atouch.ch/) who has made a commercial product of it. In this applied research project we enhance the product with new exciting functionallity like online collaboration for distributed teams, inventing the "digital scrum master" to support the teams in their collaboration and agility and develop new multi-modal interaction concepts for data input on touch devices.
+Building on earlier research, this project developed aWall further as a collaboration tool for agile teams using large multi-touch displays. It explored online collaboration for distributed teams, a “digital scrum master” concept, and multimodal interaction methods. The work also contributed to the development of [aTouch Dynamics](https://www.atouch.ch/).
+
   Partners: FHNW, aTouch Dynamics
   Funding: Aargauer Forschungsfonds
 
-### 4. Swiss Agile Study (2018-2019)
+### 4th Swiss Agile Study (2018–2019)
 
-The fourth round of the Swiss Agile Study is currently running. We are expanding and making an international collaboration with the Agile Research Network in UK and Victoria University of Wellington, NZ, who are conducting the survey also in their countries. This will allow us to compare the working stile in the different countries. **You can participate** until the end of February 2019. Just **[click here](http://www.swissagilestudy.ch/)**.
+The fourth Swiss Agile Study expanded the research through international cooperation with the Agile Research Network in the UK and Victoria University of Wellington in New Zealand. Related surveys offered opportunities to compare agile working practices across countries.
+
   Partners: FHNW, ZHAW, SwissICT, SWEN, ARN (UK), Victoria University of Wellington (NZ)
   Funding: Hasler Stiftung Switzerland, SwissICT, SWEN
   Web: [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).
 
-### 3. Swiss Agile Study (2016-2017)
+### 3rd Swiss Agile Study (2016–2017)
 
-The third Swiss Agile Study has been a great success. We got a log of new insights about the effect of agile methods on the working stile and the organisation. Thank your very much for participation. This independent Swiss wide long-term study about the application of software development methodologies and practices applied by Swiss IT companies and IT professionals is executed every second year.
+The third Swiss Agile Study investigated the use of software-development methodologies and practices in Swiss IT organisations. It provided further empirical insights into agile working practices and their organisational context.
+
   Partners: ZHAW, SwissICT, SWEN
   Funding: Hasler Stiftung Switzerland, SwissICT, SWEN
   Web: [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).
 
-### 2. Swiss Agile Study (2014-2015)
+### 2nd Swiss Agile Study (2014–2015)
 
-The second Swiss wide study about application of agile software development methodologies among IT companies and IT professionals. This time also exploring organisation culture issues (study is closed, report is in preparation).
+The second nationwide study examined the adoption of agile software-development methodologies in Swiss companies and among IT professionals, including questions of organisational culture.
+
   Partners: ZHAW, SwissICT, ICTnet, SWEN
   Funding: Hasler Stiftung Switzerland, SwissICT, ICTnet, SWEN
   Web: [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).
 
-### Agile Success Factors (2013-2015)
+### Agile Success Factors (2013–2015)
 
-The goal of this project is find out and evaluate the critical factors for successful agile software projects. Based on the results of the Swiss Agile Study 2012, we will interview companies that have conducted successful agile projects and determine the factors that lead to successful projects. We also hope to find agile success patterns for different project types and company types. This is a common research project with the University of Applied Sciences Zurich Winterthur.
+Building on the 2012 Swiss Agile Study, this research project investigated factors contributing to successful agile software projects. In collaboration with the university of applied sciences in Winterthur, it examined experiences from companies and sought patterns across different project and organisation types.
+
   Partners: University of Applied Sciences Zurich Winterthur
   Funding: Hasler Foundation, Switzerland.
 
-### Agile Technology for Agile Methods (SI-ATAM, 2013-2014)
+### Agile Technology for Agile Methods (SI-ATAM, 2013–2014)
 
-A common research project together of the IMVS, the [Institute for Research and Development of Collaborative Processes](http://www.fhnw.ch/ifk/) and the [Institute for Competitiveness and Communication](http://www.fhnw.ch/icc/) about how new computer interaction technology like ultra-large multi-touch walls can help improve collaboration in highly collaborative team processes like in agile software development. The goal of this project is to understand collaboration in highly collaborative working environments and develop interaction concepts and methods for multi-touch wall systems to improve collaborative working.
+This interdisciplinary project investigated how ultra-large multi-touch displays could support collaboration in agile software development. It explored teamwork in collaborative environments and developed interaction concepts for wall-sized touch systems.
+
   Partners: School of Business (FHNW), School of Applied Psychology
   Funding: Strategy Fund of UAS Northwestern Switzerland
   Web: [SI-ATAM](http://www.fhnw.ch/technik/imvs/forschung/projekte/si-atam/si-atam)
 
-### 1. Swiss Agile Study (2012-2013)
+### 1st Swiss Agile Study (2012–2013)
 
-The first Swiss wide study about application of agile software development methodologies among IT companies and IT professionals. Find more details and the complete study report on [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).
+The first nationwide Swiss Agile Study examined software-development methodologies and practices among Swiss IT companies and professionals. Further information and the study report were published on [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).
+
   Partners: ZHAW, SwissICT, ICTnet, SWEN
   Funding: Hasler Stiftung Switzerland, SwissICT, ICTnet, SWEN
   Web: [www.swissagilestudy.ch](http://www.swissagilestudy.ch/).

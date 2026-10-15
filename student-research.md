@@ -44,6 +44,8 @@ This thesis investigates how Session Clusters can synchronize awareness among pa
 
 This thesis investigated automated measurement of DORA metrics using existing DevOps tooling data. It developed an open-source backend and conducted an industrial case study involving 37 production systems. The findings highlighted differences in delivery performance between individual systems and the limitations of relying solely on team-level aggregates.
 
+**Conference publication:** [Fully Automated DORA Metrics Measurement for Continuous Improvement (ICSSP 2024)](/publications#10.1145/3666015.3666020).
+
 ## Marc Sallin — Software Development Productivity and Performance Measurement
 
 *Supervisor: Martin Kropp*
@@ -54,11 +56,15 @@ This thesis investigated automated measurement of DORA metrics using existing De
 
 This project explored how the four key DevOps metrics could be measured automatically and whether such measurements were useful to development teams. It developed a prototype and evaluated it with a Scrum team at Swiss Post, providing evidence of the approach's practical value for assessing software delivery performance.
 
+**Conference publication:** [Measuring Software Delivery Performance Using the Four Key Metrics of DevOps (XP 2021)](/publications#sallin2021measuring).
+
 ### Software Development Waste Self-Reporting to Guide Productivity Improvement: A Methodological Study
 
 **Master's thesis · 2021 · Completed**
 
 This thesis investigated how development teams could identify and quantify wasted effort to guide productivity improvement. It developed an empirical classification of software development waste and a self-reporting method, evaluated with developers at Swiss Post. The study found that daily reporting was important for accurate quantification and examined the relationship between reported waste and delivery performance.
+
+**Conference publication:** [Waste Self-Reporting for Software Development Productivity Improvement (XP 2023)](/publications#sallin2023waste).
 
 ---
 

@@ -21,12 +21,6 @@ The aim was to explore how relevant information arising in discussions could be 
 
 This project forms part of the ongoing aWall research direction, rather than a replacement for the broader work on interactive card walls.
 
-## Research through Student Projects
-
-Master's theses and semester projects contribute to applied research in software engineering through empirical studies, prototypes and evaluations, often in collaboration with industry. Recent projects investigate information asymmetry in hybrid collaboration, automated DORA metrics and software development productivity.
-
-[Explore supervised student research →](/student-research)
-
 ## Previous projects
 
 The following project descriptions document earlier research activities. The aWall projects below are completed project phases within the continuing aWall research initiative.

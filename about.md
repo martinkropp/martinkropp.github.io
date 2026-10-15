@@ -10,7 +10,7 @@ My current research interests include agile methodologies, tool-supported hybrid
 
 I am particularly interested in understanding software-development practices through empirical research and exploring how collaborative technologies, automation and AI can support and improve software development. 
 
-An emerging research focus is the sustainable development and evolution of software in the age of AI, investigating how code quality influences long-term maintainability, the effectiveness, computational effort, and cost of AI-assisted software engineering.
+An emerging research focus is the sustainable development and evolution of software in the age of AI, investigating how code quality affects long-term maintainability, als well as the effectiveness, computational effort, and cost of AI-assisted software engineering.
 
 I co-founded the [Swiss Agile Research Network (SARN)](http://www.swissagileresearchnetwork.ch/) and contributed to the recurring [Swiss Agile Study](http://www.swissagilestudy.ch/).
 

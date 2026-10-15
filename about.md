@@ -4,13 +4,11 @@ permalink: /about
 description: Academic biography, international experience and contact details of Martin Kropp.
 ---
 
-I am professor for Software Engineering at the [Institute of Mobile and Distributed Systems](http://www.imvs.technik.fhnw.ch/) of the [University of Applied Sciences and Arts Northwestern Switzerland (FHNW)](https://www.fhnw.ch/).
+I am a Professor of Software Engineering at the [University of Applied Sciences and Arts Northwestern Switzerland (FHNW)](https://www.fhnw.ch/), where I teach and conduct applied research in software engineering.
 
-I teach courses at Bachelor and Masters degree in Software Engineering, Software Construction, Software Testing, and C# and .NET programming in the department of Computer Science.
+My current research interests include agile methodologies, tool-supported hybrid collaboration, automated software construction, software metrics and analysis, and **software evolution in the age of AI**. I am particularly interested in how empirical evidence, collaborative technologies and automation can improve software development over time.
 
-My research focuses on everything that helps make software development more efficient, particularly agile methodologies, tool-supported agile collaboration, automated software construction, and software metrics and analysis.
-
-I am co-founder of the [Swiss Agile Research Network (SARN)](http://www.swissagileresearchnetwork.ch/) and co-author of the bi-annual [Swiss Agile Study](http://www.swissagilestudy.ch/).
+I co-founded the [Swiss Agile Research Network (SARN)](http://www.swissagileresearchnetwork.ch/) and contributed to the recurring [Swiss Agile Study](http://www.swissagilestudy.ch/).
 
 ## Selected Academic Activities
 

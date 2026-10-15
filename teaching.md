@@ -22,19 +22,19 @@ Building on Software Construction, this course teaches advanced methods for buil
 
 ### [Software Construction](https://www.fhnw.ch/plattformen/swc/)
 
-This undergraduate course covers methods and tools for effective software development in the small. Topics include version control with Git, build automation, continuous integration, refactoring, unit testing, mock testing, metrics and simple code analysis — the technical competences and tools needed for agile development.
+This undergraduate course covered methods and tools for effective software development in the small. Topics included version control with Git, build automation, continuous integration, refactoring, unit testing, mock testing, metrics and simple code analysis — technical competences and tools needed for agile development.
 
 ### [.NET Enterprise Application Development](https://www.fhnw.ch/plattformen/dnead/)
 
-This course builds on .NET Framework and C# and covers technologies and frameworks for .NET enterprise applications: GUI development with WPF; web development with ASP.NET, MVVM, MVC and Silverlight; and database and service development with ADO.NET, Entity Framework, WCF and WF.
+This course built on .NET Framework and C# and covered technologies and frameworks for .NET enterprise applications: GUI development with WPF; web development with ASP.NET, MVVM, MVC and Silverlight; and database and service development with ADO.NET, Entity Framework, WCF and WF.
 
 ### [Software Engineering and Architectures](http://moodle.msengineering.ch/course/view.php?id=37) (Graduate)
 
-This course in the MSE Master's programme covers advanced topics in software engineering and software architecture. I taught it with colleagues from Lucerne and Winterthur, covering software evolution, software analysis and visualisation.
+This course in the MSE Master's programme covered advanced topics in software engineering and software architecture. I taught it with colleagues from Lucerne and Winterthur, covering software evolution, software analysis and visualisation.
 
 ### [Software Development Process](https://sgi.pages.fhnw.ch/moduluebersicht/2026hs/sepC/drehbuch.html) (2018)
 
-A practical introduction to modern software development processes and project management, including agile development and the Scrum City Game, a Scrum simulation game. At that time, we played the game using paper, scissors, glue and coloured pencils – it was great fun.
+This course offered a practical introduction to modern software development processes and project management, including agile development and the Scrum City Game, a Scrum simulation game. At that time, we played the game using paper, scissors, glue and coloured pencils – it was great fun.
 
 ### Mobile Application Development (2008)
 
@@ -42,7 +42,7 @@ This course provided a practical introduction to mobile application development,
 
 ### Introduction into .NET (2008)
 
-An introduction to .NET technology, covering the core base class library, architecture and frameworks such as WinForms, ADO.NET, ASP.NET and Web Services.
+This course introduced .NET technology, covering the core base class library, architecture and frameworks such as WinForms, ADO.NET, ASP.NET and Web Services.
 
 ### Web Services Architecture (2007)
 
@@ -50,7 +50,7 @@ This course introduced the fundamental concepts of web services as an interopera
 
 ### Object-oriented Analysis and Design (2003–2005)
 
-An introduction to object-oriented analysis and design based on Craig Larman's book *Applying UML and Patterns*.
+This course introduced object-oriented analysis and design based on Craig Larman's book *Applying UML and Patterns*.
 
 ### Software Engineering (1999–2003)
 

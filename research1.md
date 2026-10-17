@@ -1,6 +1,7 @@
 ---
 title: Research
 permalink: /research
+description: Research in agile software engineering, hybrid collaboration, aWall, software processes and empirical studies at FHNW.
 ---
 
 ## Current research

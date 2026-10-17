@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ffffff">
 <meta name="description" content="{{ page.description | default: site.description | escape }}">
-<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title }}</title>
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<title>{% if page.url == '/' %}Martin Kropp | Professor of Software Engineering{% elsif page.title %}{{ page.title | escape }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>

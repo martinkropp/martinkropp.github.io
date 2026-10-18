@@ -48,12 +48,8 @@ for r in records:
     year = clean(r.get("year", "")).strip("{} ")
     groups[year if re.fullmatch(r"\d{4}", year) else "Other"].append(r)
 
-lines = [
-    "---", "layout: default", "title: Publications",
-    "permalink: /publications", "---",
-    '<div class="scholar-list">',
-    '<p class="scholar-count">My most recent publications</p>'
-]
+# The introductory text stays in publications1.md; generate bibliography HTML only.
+lines = ['<div class="scholar-list">']
 publication_number = 0
 for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=True):
     lines.append(f'<h2 class="scholar-year">{safe(year)}</h2>')
@@ -90,7 +86,7 @@ for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=
     lines.append('</div>')
 lines.append('</div>')
 
-target = ROOT / "publications1.md"
+target = ROOT / "_includes" / "generated-publications.html"
 target.parent.mkdir(parents=True, exist_ok=True)
 target.write_text("\n".join(lines) + "\n", encoding="utf-8")
 # Keep the previously published bibliography address working.

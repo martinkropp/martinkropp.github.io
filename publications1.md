@@ -3,6 +3,9 @@ title: Publications
 permalink: /publications
 ---
 
-The publication list is generated from [the BibTeX database](/assets/papers.bib) during deployment.
+My most recent publications
 
-[Original Markdown publications archive](/publications-archive)
+<!-- Publication entries below are generated from _bibliography/papers.bib
+     by scripts/build_bibliography.py during deployment.
+     Edit introductory text here; do not edit the generated publication list. -->
+{% include generated-publications.html %}

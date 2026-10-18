@@ -52,7 +52,7 @@ lines = [
     "---", "layout: default", "title: Publications",
     "permalink: /publications", "---",
     '<div class="scholar-list">',
-    f'<p class="scholar-count">{len(records)} publications and contributions</p>'
+    '<p class="scholar-count">My most recent publications</p>'
 ]
 publication_number = 0
 for year in sorted(groups, key=lambda y: int(y) if y.isdigit() else -1, reverse=True):
